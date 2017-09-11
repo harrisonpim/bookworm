@@ -1,0 +1,2141 @@
+{
+  "nodes": [{
+    "id": "('miles penn ',)",
+    "group": 1
+  }, {
+    "id": "('caryn vaught ', 'caryn ')",
+    "group": 1
+  }, {
+    "id": "('sharyn vaught ', 'sharyn ')",
+    "group": 1
+  }, {
+    "id": "('ann kittenplan ', 'kittenplan ')",
+    "group": 1
+  }, {
+    "id": "('erica siress ',)",
+    "group": 1
+  }, {
+    "id": "('jennie bash ',)",
+    "group": 1
+  }, {
+    "id": "('amy wingo ',)",
+    "group": 1
+  }, {
+    "id": "('lori clow ',)",
+    "group": 1
+  }, {
+    "id": "('shoshana abrams ',)",
+    "group": 1
+  }, {
+    "id": "('carol spodek ',)",
+    "group": 1
+  }, {
+    "id": "('frances l. unwin ', 'unwin ')",
+    "group": 1
+  }, {
+    "id": "('tina echt ', 'echt ')",
+    "group": 1
+  }, {
+    "id": "('gretchen holt ',)",
+    "group": 1
+  }, {
+    "id": "('jolene criess ',)",
+    "group": 1
+  }, {
+    "id": "('felicity zwieg ', 'zwieg ')",
+    "group": 1
+  }, {
+    "id": "('zoltan csikzentmihalyi ',)",
+    "group": 1
+  }, {
+    "id": "('bernard makulic ',)",
+    "group": 1
+  }, {
+    "id": "('stephan wagenknecht ',)",
+    "group": 1
+  }, {
+    "id": "('jeff wax ',)",
+    "group": 1
+  }, {
+    "id": "('chip sweeny ',)",
+    "group": 1
+  }, {
+    "id": "('todd \"postal weight\" possalthwaite ', 'possalthwaite ', 'postal weight ')",
+    "group": 1
+  }, {
+    "id": "('otis p. lord ', 'lord ')",
+    "group": 1
+  }, {
+    "id": "('esteban reyes ',)",
+    "group": 1
+  }, {
+    "id": "('guglielmo redondo ',)",
+    "group": 1
+  }, {
+    "id": "('eliot kornspan ',)",
+    "group": 1
+  }, {
+    "id": "('cisne ',)",
+    "group": 1
+  }, {
+    "id": "('jeffrey joseph penn ',)",
+    "group": 1
+  }, {
+    "id": "('tim \"sleepy tp\" peterson ', 'peterson ', 'sleepy tp ')",
+    "group": 1
+  }, {
+    "id": "('kieran mckenna ',)",
+    "group": 1
+  }, {
+    "id": "('brian van vleck ', 'van vleck ')",
+    "group": 1
+  }, {
+    "id": "('lamont chu ',)",
+    "group": 1
+  }, {
+    "id": "('audern tallat-kelpsa ',)",
+    "group": 1
+  }, {
+    "id": "('phillip traub ',)",
+    "group": 1
+  }, {
+    "id": "('josh gopnik ',)",
+    "group": 1
+  }, {
+    "id": "('virgilio ',)",
+    "group": 1
+  }, {
+    "id": "('evan ingersoll ', 'ingersoll ')",
+    "group": 1
+  }, {
+    "id": "('ortho \"the darkness\" stice ', 'stice ', 'ortho ', 'the darkness ')",
+    "group": 1
+  }, {
+    "id": "('kenn blott ',)",
+    "group": 1
+  }, {
+    "id": "('petropolis khan ', 'petropolis ')",
+    "group": 1
+  }, {
+    "id": "('graham \"yard-guard\" rader ', 'yard guard ')",
+    "group": 1
+  }, {
+    "id": "('kent blott ',)",
+    "group": 1
+  }, {
+    "id": "('lyle ',)",
+    "group": 1
+  }, {
+    "id": "('coach kirk white ',)",
+    "group": 1
+  }, {
+    "id": "('dean of admissions ',)",
+    "group": 1
+  }, {
+    "id": "('sirector of composition ',)",
+    "group": 1
+  }, {
+    "id": "('dean of athletic affairs ',)",
+    "group": 1
+  }, {
+    "id": "('dean of academic affairs ',)",
+    "group": 1
+  }, {
+    "id": "('u.s.s millicent kent ',)",
+    "group": 1
+  }, {
+    "id": "('idris \"id\" arslanian ', 'arslanian ')",
+    "group": 1
+  }, {
+    "id": "('peter beak ',)",
+    "group": 1
+  }, {
+    "id": "('carl \"mobes\" whale ',)",
+    "group": 1
+  }, {
+    "id": "('trevor \"axhandle\" axford ', 'axford ', 'axhandle ')",
+    "group": 1
+  }, {
+    "id": "('diane prins ',)",
+    "group": 1
+  }, {
+    "id": "('bernadette longley ',)",
+    "group": 1
+  }, {
+    "id": "('kyle d coyle ',)",
+    "group": 1
+  }, {
+    "id": "('keith freer ', 'freer ', 'the viking ')",
+    "group": 1
+  }, {
+    "id": "('john wayne ',)",
+    "group": 1
+  }, {
+    "id": "('james struck ', 'struck ')",
+    "group": 1
+  }, {
+    "id": "('hugh pemberton ', 'pemberton ')",
+    "group": 1
+  }, {
+    "id": "('tall paul shaw ', 'tp shaw ', 'shaw ')",
+    "group": 1
+  }, {
+    "id": "('jim troeltsch ', 'troeltsch ')",
+    "group": 1
+  }, {
+    "id": "('ted schacht ', 'schacht ')",
+    "group": 1
+  }, {
+    "id": "('van slack ',)",
+    "group": 1
+  }, {
+    "id": "('stockhausen ',)",
+    "group": 1
+  }, {
+    "id": "('gloeckner ',)",
+    "group": 1
+  }, {
+    "id": "('bernard wayne ',)",
+    "group": 1
+  }, {
+    "id": "('noreen lace-forche ',)",
+    "group": 1
+  }, {
+    "id": "('maureen hooley ',)",
+    "group": 1
+  }, {
+    "id": "('tom veals ',)",
+    "group": 1
+  }, {
+    "id": "('fully functional phil ',)",
+    "group": 1
+  }, {
+    "id": "('johnny gentle ',)",
+    "group": 1
+  }, {
+    "id": "('mexican president ',)",
+    "group": 1
+  }, {
+    "id": "('canadian president ',)",
+    "group": 1
+  }, {
+    "id": "('rodney tine ', 'rod the god ', 'rodney \"the god\" tine ')",
+    "group": 1
+  }, {
+    "id": "('bridget c. boone ', 'boone ')",
+    "group": 1
+  }, {
+    "id": "('hal ',)",
+    "group": 1
+  }, {
+    "id": "('dymphna ',)",
+    "group": 1
+  }, {
+    "id": "('mario ',)",
+    "group": 1
+  }, {
+    "id": "('schtitt ',)",
+    "group": 1
+  }, {
+    "id": "('poutrincourt ',)",
+    "group": 1
+  }, {
+    "id": "('thode ',)",
+    "group": 1
+  }, {
+    "id": "('ruth ',)",
+    "group": 1
+  }, {
+    "id": "('rik dunkel ',)",
+    "group": 1
+  }, {
+    "id": "('nwangi ',)",
+    "group": 1
+  }, {
+    "id": "('corbett thorp ',)",
+    "group": 1
+  }, {
+    "id": "('cantrell ',)",
+    "group": 1
+  }, {
+    "id": "('donnie scott ',)",
+    "group": 1
+  }, {
+    "id": "('tex watson ',)",
+    "group": 1
+  }, {
+    "id": "('neil hartigan ',)",
+    "group": 1
+  }, {
+    "id": "('delint ',)",
+    "group": 1
+  }, {
+    "id": "('miriam pricket ',)",
+    "group": 1
+  }, {
+    "id": "('flottman ',)",
+    "group": 1
+  }, {
+    "id": "('fentress ',)",
+    "group": 1
+  }, {
+    "id": "('lingley ',)",
+    "group": 1
+  }, {
+    "id": "('pettijohn ',)",
+    "group": 1
+  }, {
+    "id": "('chawaf ',)",
+    "group": 1
+  }, {
+    "id": "('urquhart ',)",
+    "group": 1
+  }, {
+    "id": "('disney r. leith ',)",
+    "group": 1
+  }, {
+    "id": "('melinda ',)",
+    "group": 1
+  }, {
+    "id": "('vogelsong ',)",
+    "group": 1
+  }, {
+    "id": "('rutherford keck ',)",
+    "group": 1
+  }, {
+    "id": "('crosby baum ',)",
+    "group": 1
+  }, {
+    "id": "('reeves mainwaring ',)",
+    "group": 1
+  }, {
+    "id": "('iaccarino ',)",
+    "group": 1
+  }, {
+    "id": "('molly cantrell notkin ', 'notkin ')",
+    "group": 1
+  }, {
+    "id": "('barry loach ', 'loach ')",
+    "group": 1
+  }, {
+    "id": "('the moms ', 'avril ', 'mondragon ')",
+    "group": 1
+  }, {
+    "id": "('pemulis ',)",
+    "group": 1
+  }, {
+    "id": "('dick willis ',)",
+    "group": 1
+  }, {
+    "id": "('thomas m. flatto ',)",
+    "group": 1
+  }, {
+    "id": "('dick desai ',)",
+    "group": 1
+  }, {
+    "id": "('luria perec ', 'luria p ')",
+    "group": 1
+  }, {
+    "id": "('fortier ',)",
+    "group": 1
+  }, {
+    "id": "('broullime ',)",
+    "group": 1
+  }, {
+    "id": "('balbalis ',)",
+    "group": 1
+  }, {
+    "id": "('ossowircke ',)",
+    "group": 1
+  }, {
+    "id": "('beausoleil ',)",
+    "group": 1
+  }, {
+    "id": "('tassigny ',)",
+    "group": 1
+  }, {
+    "id": "('desjardins ',)",
+    "group": 1
+  }, {
+    "id": "('joubet ',)",
+    "group": 1
+  }, {
+    "id": "('harv ',)",
+    "group": 1
+  }, {
+    "id": "('kevin bain ',)",
+    "group": 1
+  }, {
+    "id": "('marlon bain ', 'marlon ')",
+    "group": 1
+  }, {
+    "id": "('henri f. hoyne ', 'henri ')",
+    "group": 1
+  }, {
+    "id": "('miriam hoyne ', 'miriam ')",
+    "group": 1
+  }, {
+    "id": "('steeply ', 'hugh ')",
+    "group": 1
+  }, {
+    "id": "('mo cheery ',)",
+    "group": 1
+  }, {
+    "id": "('muminsky ',)",
+    "group": 1
+  }, {
+    "id": "('orin ',)",
+    "group": 1
+  }, {
+    "id": "('marathe ', 'remy ')",
+    "group": 1
+  }, {
+    "id": "('gertraud ',)",
+    "group": 1
+  }, {
+    "id": "('nickerson ',)",
+    "group": 1
+  }, {
+    "id": "('smothergill ',)",
+    "group": 1
+  }, {
+    "id": "('flechette ',)",
+    "group": 1
+  }, {
+    "id": "('brandeis ',)",
+    "group": 1
+  }, {
+    "id": "('guillaume duplessis ', 'guillaume ', 'duplessis ')",
+    "group": 1
+  }, {
+    "id": "('bertraund ',)",
+    "group": 1
+  }, {
+    "id": "('lucien ',)",
+    "group": 1
+  }, {
+    "id": "('kate gompert ', 'gompert ')",
+    "group": 1
+  }, {
+    "id": "('erdedy ',)",
+    "group": 1
+  }, {
+    "id": "('ruth van cleve ',)",
+    "group": 1
+  }, {
+    "id": "('burt f. smith ', 'burt ')",
+    "group": 1
+  }, {
+    "id": "('poor tony ', 'krause ')",
+    "group": 1
+  }, {
+    "id": "('emil minty ', 'emil ', 'yrstruly ')",
+    "group": 1
+  }, {
+    "id": "('susan t. cheese ',)",
+    "group": 1
+  }, {
+    "id": "('bridget tenderhole ',)",
+    "group": 1
+  }, {
+    "id": "('lolasister ',)",
+    "group": 1
+  }, {
+    "id": "('equus reese ',)",
+    "group": 1
+  }, {
+    "id": "('stokeley \"dark star\" mcnair ', 'stokeley ', 'dark star ', 'darkstar ', 'mcnair ')",
+    "group": 1
+  }, {
+    "id": "('dr wo ',)",
+    "group": 1
+  }, {
+    "id": "('himself ', 'mad stork ', 'jim icandenza ', 'james incandenza ')",
+    "group": 1
+  }, {
+    "id": "('ken johnson ',)",
+    "group": 1
+  }, {
+    "id": "('elizabeth tavis ',)",
+    "group": 1
+  }, {
+    "id": "('lateral ', 'alice moore ')",
+    "group": 1
+  }, {
+    "id": "('charles tavis ', 'tavis ')",
+    "group": 1
+  }, {
+    "id": "('barry loach ',)",
+    "group": 1
+  }, {
+    "id": "('therese ',)",
+    "group": 1
+  }, {
+    "id": "('veach ',)",
+    "group": 1
+  }, {
+    "id": "('slodoban ',)",
+    "group": 1
+  }, {
+    "id": "('rusk ',)",
+    "group": 1
+  }, {
+    "id": "('zegarelli ',)",
+    "group": 1
+  }, {
+    "id": "('kenkle ',)",
+    "group": 1
+  }, {
+    "id": "('fdv ', 'harde ', 'fall down very ')",
+    "group": 1
+  }, {
+    "id": "('brandt ',)",
+    "group": 1
+  }, {
+    "id": "('calvin thrust ',)",
+    "group": 1
+  }, {
+    "id": "('didi neaves ',)",
+    "group": 1
+  }, {
+    "id": "('roy tony ',)",
+    "group": 1
+  }, {
+    "id": "('clenette henderson ',)",
+    "group": 1
+  }, {
+    "id": "('dolores epps ',)",
+    "group": 1
+  }, {
+    "id": "('columbus epps ',)",
+    "group": 1
+  }, {
+    "id": "('doony ', 'glynn ')",
+    "group": 1
+  }, {
+    "id": "('wade mcdade ', 'mcdade ')",
+    "group": 1
+  }, {
+    "id": "('alfonso parias-carbo ', 'parias-carbo ')",
+    "group": 1
+  }, {
+    "id": "('tingley ',)",
+    "group": 1
+  }, {
+    "id": "('april cortelyu ',)",
+    "group": 1
+  }, {
+    "id": "('david krone ',)",
+    "group": 1
+  }, {
+    "id": "('chandler foss ', 'foss ')",
+    "group": 1
+  }, {
+    "id": "('morris hanley ',)",
+    "group": 1
+  }, {
+    "id": "('jennifer belbin ',)",
+    "group": 1
+  }, {
+    "id": "('selwyn ',)",
+    "group": 1
+  }, {
+    "id": "('hester ', 'thrale ')",
+    "group": 1
+  }, {
+    "id": "('kubitz ',)",
+    "group": 1
+  }, {
+    "id": "('nell gunther ',)",
+    "group": 1
+  }, {
+    "id": "('gavin diehl ', 'gavin ', 'diehl ')",
+    "group": 1
+  }, {
+    "id": "('tiny ewell ', 'ewell ')",
+    "group": 1
+  }, {
+    "id": "('montesian ',)",
+    "group": 1
+  }, {
+    "id": "('annie parrot ',)",
+    "group": 1
+  }, {
+    "id": "('mildred bonk green ',)",
+    "group": 1
+  }, {
+    "id": "('bruce green ',)",
+    "group": 1
+  }, {
+    "id": "('foltz ',)",
+    "group": 1
+  }, {
+    "id": "('geoff ', 'geoffrey day ')",
+    "group": 1
+  }, {
+    "id": "('tommy doocey ',)",
+    "group": 1
+  }, {
+    "id": "('yolanda ',)",
+    "group": 1
+  }, {
+    "id": "('randy ', 'lenz ')",
+    "group": 1
+  }, {
+    "id": "('bobby c ',)",
+    "group": 1
+  }, {
+    "id": "('purpleboy ',)",
+    "group": 1
+  }, {
+    "id": "('kely vinoy ',)",
+    "group": 1
+  }, {
+    "id": "('pamela hoffman-jeep ', 'hoffman-jeep ')",
+    "group": 1
+  }, {
+    "id": "('lobokulas ',)",
+    "group": 1
+  }, {
+    "id": "('joelle ', 'van dyne ', 'lucille ')",
+    "group": 1
+  }, {
+    "id": "('lady delphina ',)",
+    "group": 1
+  }, {
+    "id": "('attache ', 'saudi ')",
+    "group": 1
+  }, {
+    "id": "('wraith ',)",
+    "group": 1
+  }, {
+    "id": "('pendleton ',)",
+    "group": 1
+  }, {
+    "id": "('prissburger ',)",
+    "group": 1
+  }, {
+    "id": "('cathy ', 'kathy ')",
+    "group": 1
+  }, {
+    "id": "('glenn ', 'glenn k ')",
+    "group": 1
+  }, {
+    "id": "('bud o ',)",
+    "group": 1
+  }, {
+    "id": "('sven s ',)",
+    "group": 1
+  }, {
+    "id": "('jack j ',)",
+    "group": 1
+  }, {
+    "id": "('dicky n ',)",
+    "group": 1
+  }, {
+    "id": "('tamara n ',)",
+    "group": 1
+  }, {
+    "id": "('louise b ',)",
+    "group": 1
+  }, {
+    "id": "('john l ',)",
+    "group": 1
+  }, {
+    "id": "('ferocious francis ', 'francis ')",
+    "group": 1
+  }, {
+    "id": "('bob death ',)",
+    "group": 1
+  }, {
+    "id": "('whitey sorkin ', 'sorkin ')",
+    "group": 1
+  }, {
+    "id": "('sixties bob ', 'bob monroe ')",
+    "group": 1
+  }, {
+    "id": "('eighties bill ',)",
+    "group": 1
+  }, {
+    "id": "(\"gwendine o'shay \",)",
+    "group": 1
+  }, {
+    "id": "('gately ', 'don ')",
+    "group": 1
+  }, {
+    "id": "('quo vadis ',)",
+    "group": 1
+  }, {
+    "id": "('eugene ', 'fackelmann ')",
+    "group": 1
+  }, {
+    "id": "('martinez ',)",
+    "group": 1
+  }, {
+    "id": "('revere ada ',)",
+    "group": 1
+  }, {
+    "id": "('waite ',)",
+    "group": 1
+  }, {
+    "id": "('sir osis of thuliver ',)",
+    "group": 1
+  }],
+  "links": [{
+    "target": "('otis p. lord ', 'lord ')",
+    "source": "('ann kittenplan ', 'kittenplan ')",
+    "value": 3
+  }, {
+    "target": "('evan ingersoll ', 'ingersoll ')",
+    "source": "('ann kittenplan ', 'kittenplan ')",
+    "value": 5
+  }, {
+    "target": "('pemulis ',)",
+    "source": "('ann kittenplan ', 'kittenplan ')",
+    "value": 5
+  }, {
+    "target": "('bridget c. boone ', 'boone ')",
+    "source": "('frances l. unwin ', 'unwin ')",
+    "value": 3
+  }, {
+    "target": "('stephan wagenknecht ',)",
+    "source": "('tina echt ', 'echt ')",
+    "value": 3
+  }, {
+    "target": "('tina echt ', 'echt ')",
+    "source": "('stephan wagenknecht ',)",
+    "value": 3
+  }, {
+    "target": "('hal ',)",
+    "source": "('todd \"postal weight\" possalthwaite ', 'possalthwaite ', 'postal weight ')",
+    "value": 3
+  }, {
+    "target": "('waite ',)",
+    "source": "('todd \"postal weight\" possalthwaite ', 'possalthwaite ', 'postal weight ')",
+    "value": 21
+  }, {
+    "target": "('ann kittenplan ', 'kittenplan ')",
+    "source": "('otis p. lord ', 'lord ')",
+    "value": 3
+  }, {
+    "target": "('evan ingersoll ', 'ingersoll ')",
+    "source": "('otis p. lord ', 'lord ')",
+    "value": 7
+  }, {
+    "target": "('hal ',)",
+    "source": "('otis p. lord ', 'lord ')",
+    "value": 8
+  }, {
+    "target": "('pemulis ',)",
+    "source": "('otis p. lord ', 'lord ')",
+    "value": 10
+  }, {
+    "target": "('lamont chu ',)",
+    "source": "('tim \"sleepy tp\" peterson ', 'peterson ', 'sleepy tp ')",
+    "value": 3
+  }, {
+    "target": "('tim \"sleepy tp\" peterson ', 'peterson ', 'sleepy tp ')",
+    "source": "('lamont chu ',)",
+    "value": 3
+  }, {
+    "target": "('ann kittenplan ', 'kittenplan ')",
+    "source": "('evan ingersoll ', 'ingersoll ')",
+    "value": 5
+  }, {
+    "target": "('otis p. lord ', 'lord ')",
+    "source": "('evan ingersoll ', 'ingersoll ')",
+    "value": 7
+  }, {
+    "target": "('idris \"id\" arslanian ', 'arslanian ')",
+    "source": "('evan ingersoll ', 'ingersoll ')",
+    "value": 3
+  }, {
+    "target": "('hal ',)",
+    "source": "('evan ingersoll ', 'ingersoll ')",
+    "value": 13
+  }, {
+    "target": "('pemulis ',)",
+    "source": "('evan ingersoll ', 'ingersoll ')",
+    "value": 8
+  }, {
+    "target": "('lyle ',)",
+    "source": "('ortho \"the darkness\" stice ', 'stice ', 'ortho ', 'the darkness ')",
+    "value": 5
+  }, {
+    "target": "('trevor \"axhandle\" axford ', 'axford ', 'axhandle ')",
+    "source": "('ortho \"the darkness\" stice ', 'stice ', 'ortho ', 'the darkness ')",
+    "value": 3
+  }, {
+    "target": "('keith freer ', 'freer ', 'the viking ')",
+    "source": "('ortho \"the darkness\" stice ', 'stice ', 'ortho ', 'the darkness ')",
+    "value": 6
+  }, {
+    "target": "('james struck ', 'struck ')",
+    "source": "('ortho \"the darkness\" stice ', 'stice ', 'ortho ', 'the darkness ')",
+    "value": 7
+  }, {
+    "target": "('tall paul shaw ', 'tp shaw ', 'shaw ')",
+    "source": "('ortho \"the darkness\" stice ', 'stice ', 'ortho ', 'the darkness ')",
+    "value": 4
+  }, {
+    "target": "('jim troeltsch ', 'troeltsch ')",
+    "source": "('ortho \"the darkness\" stice ', 'stice ', 'ortho ', 'the darkness ')",
+    "value": 9
+  }, {
+    "target": "('ted schacht ', 'schacht ')",
+    "source": "('ortho \"the darkness\" stice ', 'stice ', 'ortho ', 'the darkness ')",
+    "value": 4
+  }, {
+    "target": "('hal ',)",
+    "source": "('ortho \"the darkness\" stice ', 'stice ', 'ortho ', 'the darkness ')",
+    "value": 49
+  }, {
+    "target": "('mario ',)",
+    "source": "('ortho \"the darkness\" stice ', 'stice ', 'ortho ', 'the darkness ')",
+    "value": 3
+  }, {
+    "target": "('schtitt ',)",
+    "source": "('ortho \"the darkness\" stice ', 'stice ', 'ortho ', 'the darkness ')",
+    "value": 7
+  }, {
+    "target": "('delint ',)",
+    "source": "('ortho \"the darkness\" stice ', 'stice ', 'ortho ', 'the darkness ')",
+    "value": 12
+  }, {
+    "target": "('pemulis ',)",
+    "source": "('ortho \"the darkness\" stice ', 'stice ', 'ortho ', 'the darkness ')",
+    "value": 13
+  }, {
+    "target": "('steeply ', 'hugh ')",
+    "source": "('ortho \"the darkness\" stice ', 'stice ', 'ortho ', 'the darkness ')",
+    "value": 5
+  }, {
+    "target": "('himself ', 'mad stork ', 'jim icandenza ', 'james incandenza ')",
+    "source": "('ortho \"the darkness\" stice ', 'stice ', 'ortho ', 'the darkness ')",
+    "value": 3
+  }, {
+    "target": "('charles tavis ', 'tavis ')",
+    "source": "('ortho \"the darkness\" stice ', 'stice ', 'ortho ', 'the darkness ')",
+    "value": 4
+  }, {
+    "target": "('rusk ',)",
+    "source": "('ortho \"the darkness\" stice ', 'stice ', 'ortho ', 'the darkness ')",
+    "value": 3
+  }, {
+    "target": "('ortho \"the darkness\" stice ', 'stice ', 'ortho ', 'the darkness ')",
+    "source": "('lyle ',)",
+    "value": 5
+  }, {
+    "target": "('hal ',)",
+    "source": "('lyle ',)",
+    "value": 4
+  }, {
+    "target": "('mario ',)",
+    "source": "('lyle ',)",
+    "value": 7
+  }, {
+    "target": "('pemulis ',)",
+    "source": "('lyle ',)",
+    "value": 4
+  }, {
+    "target": "('himself ', 'mad stork ', 'jim icandenza ', 'james incandenza ')",
+    "source": "('lyle ',)",
+    "value": 3
+  }, {
+    "target": "('evan ingersoll ', 'ingersoll ')",
+    "source": "('idris \"id\" arslanian ', 'arslanian ')",
+    "value": 3
+  }, {
+    "target": "('hal ',)",
+    "source": "('idris \"id\" arslanian ', 'arslanian ')",
+    "value": 3
+  }, {
+    "target": "('ortho \"the darkness\" stice ', 'stice ', 'ortho ', 'the darkness ')",
+    "source": "('trevor \"axhandle\" axford ', 'axford ', 'axhandle ')",
+    "value": 3
+  }, {
+    "target": "('james struck ', 'struck ')",
+    "source": "('trevor \"axhandle\" axford ', 'axford ', 'axhandle ')",
+    "value": 10
+  }, {
+    "target": "('jim troeltsch ', 'troeltsch ')",
+    "source": "('trevor \"axhandle\" axford ', 'axford ', 'axhandle ')",
+    "value": 7
+  }, {
+    "target": "('ted schacht ', 'schacht ')",
+    "source": "('trevor \"axhandle\" axford ', 'axford ', 'axhandle ')",
+    "value": 4
+  }, {
+    "target": "('hal ',)",
+    "source": "('trevor \"axhandle\" axford ', 'axford ', 'axhandle ')",
+    "value": 21
+  }, {
+    "target": "('pemulis ',)",
+    "source": "('trevor \"axhandle\" axford ', 'axford ', 'axhandle ')",
+    "value": 27
+  }, {
+    "target": "('ortho \"the darkness\" stice ', 'stice ', 'ortho ', 'the darkness ')",
+    "source": "('keith freer ', 'freer ', 'the viking ')",
+    "value": 6
+  }, {
+    "target": "('james struck ', 'struck ')",
+    "source": "('keith freer ', 'freer ', 'the viking ')",
+    "value": 8
+  }, {
+    "target": "('jim troeltsch ', 'troeltsch ')",
+    "source": "('keith freer ', 'freer ', 'the viking ')",
+    "value": 8
+  }, {
+    "target": "('hal ',)",
+    "source": "('keith freer ', 'freer ', 'the viking ')",
+    "value": 4
+  }, {
+    "target": "('pemulis ',)",
+    "source": "('keith freer ', 'freer ', 'the viking ')",
+    "value": 18
+  }, {
+    "target": "('ortho \"the darkness\" stice ', 'stice ', 'ortho ', 'the darkness ')",
+    "source": "('james struck ', 'struck ')",
+    "value": 7
+  }, {
+    "target": "('trevor \"axhandle\" axford ', 'axford ', 'axhandle ')",
+    "source": "('james struck ', 'struck ')",
+    "value": 10
+  }, {
+    "target": "('keith freer ', 'freer ', 'the viking ')",
+    "source": "('james struck ', 'struck ')",
+    "value": 8
+  }, {
+    "target": "('jim troeltsch ', 'troeltsch ')",
+    "source": "('james struck ', 'struck ')",
+    "value": 7
+  }, {
+    "target": "('bridget c. boone ', 'boone ')",
+    "source": "('james struck ', 'struck ')",
+    "value": 5
+  }, {
+    "target": "('hal ',)",
+    "source": "('james struck ', 'struck ')",
+    "value": 15
+  }, {
+    "target": "('mario ',)",
+    "source": "('james struck ', 'struck ')",
+    "value": 3
+  }, {
+    "target": "('pemulis ',)",
+    "source": "('james struck ', 'struck ')",
+    "value": 14
+  }, {
+    "target": "('himself ', 'mad stork ', 'jim icandenza ', 'james incandenza ')",
+    "source": "('james struck ', 'struck ')",
+    "value": 7
+  }, {
+    "target": "('gately ', 'don ')",
+    "source": "('james struck ', 'struck ')",
+    "value": 3
+  }, {
+    "target": "('ortho \"the darkness\" stice ', 'stice ', 'ortho ', 'the darkness ')",
+    "source": "('tall paul shaw ', 'tp shaw ', 'shaw ')",
+    "value": 4
+  }, {
+    "target": "('pemulis ',)",
+    "source": "('tall paul shaw ', 'tp shaw ', 'shaw ')",
+    "value": 3
+  }, {
+    "target": "('ortho \"the darkness\" stice ', 'stice ', 'ortho ', 'the darkness ')",
+    "source": "('jim troeltsch ', 'troeltsch ')",
+    "value": 9
+  }, {
+    "target": "('trevor \"axhandle\" axford ', 'axford ', 'axhandle ')",
+    "source": "('jim troeltsch ', 'troeltsch ')",
+    "value": 7
+  }, {
+    "target": "('keith freer ', 'freer ', 'the viking ')",
+    "source": "('jim troeltsch ', 'troeltsch ')",
+    "value": 8
+  }, {
+    "target": "('james struck ', 'struck ')",
+    "source": "('jim troeltsch ', 'troeltsch ')",
+    "value": 7
+  }, {
+    "target": "('ted schacht ', 'schacht ')",
+    "source": "('jim troeltsch ', 'troeltsch ')",
+    "value": 5
+  }, {
+    "target": "('bridget c. boone ', 'boone ')",
+    "source": "('jim troeltsch ', 'troeltsch ')",
+    "value": 3
+  }, {
+    "target": "('hal ',)",
+    "source": "('jim troeltsch ', 'troeltsch ')",
+    "value": 21
+  }, {
+    "target": "('mario ',)",
+    "source": "('jim troeltsch ', 'troeltsch ')",
+    "value": 3
+  }, {
+    "target": "('delint ',)",
+    "source": "('jim troeltsch ', 'troeltsch ')",
+    "value": 3
+  }, {
+    "target": "('pemulis ',)",
+    "source": "('jim troeltsch ', 'troeltsch ')",
+    "value": 23
+  }, {
+    "target": "('himself ', 'mad stork ', 'jim icandenza ', 'james incandenza ')",
+    "source": "('jim troeltsch ', 'troeltsch ')",
+    "value": 4
+  }, {
+    "target": "('lateral ', 'alice moore ')",
+    "source": "('jim troeltsch ', 'troeltsch ')",
+    "value": 4
+  }, {
+    "target": "('ortho \"the darkness\" stice ', 'stice ', 'ortho ', 'the darkness ')",
+    "source": "('ted schacht ', 'schacht ')",
+    "value": 4
+  }, {
+    "target": "('trevor \"axhandle\" axford ', 'axford ', 'axhandle ')",
+    "source": "('ted schacht ', 'schacht ')",
+    "value": 4
+  }, {
+    "target": "('jim troeltsch ', 'troeltsch ')",
+    "source": "('ted schacht ', 'schacht ')",
+    "value": 5
+  }, {
+    "target": "('hal ',)",
+    "source": "('ted schacht ', 'schacht ')",
+    "value": 11
+  }, {
+    "target": "('mario ',)",
+    "source": "('ted schacht ', 'schacht ')",
+    "value": 3
+  }, {
+    "target": "('pemulis ',)",
+    "source": "('ted schacht ', 'schacht ')",
+    "value": 14
+  }, {
+    "target": "('steeply ', 'hugh ')",
+    "source": "('rodney tine ', 'rod the god ', 'rodney \"the god\" tine ')",
+    "value": 3
+  }, {
+    "target": "('frances l. unwin ', 'unwin ')",
+    "source": "('bridget c. boone ', 'boone ')",
+    "value": 3
+  }, {
+    "target": "('james struck ', 'struck ')",
+    "source": "('bridget c. boone ', 'boone ')",
+    "value": 5
+  }, {
+    "target": "('jim troeltsch ', 'troeltsch ')",
+    "source": "('bridget c. boone ', 'boone ')",
+    "value": 3
+  }, {
+    "target": "('hal ',)",
+    "source": "('bridget c. boone ', 'boone ')",
+    "value": 7
+  }, {
+    "target": "('pemulis ',)",
+    "source": "('bridget c. boone ', 'boone ')",
+    "value": 3
+  }, {
+    "target": "('todd \"postal weight\" possalthwaite ', 'possalthwaite ', 'postal weight ')",
+    "source": "('hal ',)",
+    "value": 3
+  }, {
+    "target": "('otis p. lord ', 'lord ')",
+    "source": "('hal ',)",
+    "value": 8
+  }, {
+    "target": "('evan ingersoll ', 'ingersoll ')",
+    "source": "('hal ',)",
+    "value": 13
+  }, {
+    "target": "('ortho \"the darkness\" stice ', 'stice ', 'ortho ', 'the darkness ')",
+    "source": "('hal ',)",
+    "value": 49
+  }, {
+    "target": "('lyle ',)",
+    "source": "('hal ',)",
+    "value": 4
+  }, {
+    "target": "('idris \"id\" arslanian ', 'arslanian ')",
+    "source": "('hal ',)",
+    "value": 3
+  }, {
+    "target": "('trevor \"axhandle\" axford ', 'axford ', 'axhandle ')",
+    "source": "('hal ',)",
+    "value": 21
+  }, {
+    "target": "('keith freer ', 'freer ', 'the viking ')",
+    "source": "('hal ',)",
+    "value": 4
+  }, {
+    "target": "('james struck ', 'struck ')",
+    "source": "('hal ',)",
+    "value": 15
+  }, {
+    "target": "('jim troeltsch ', 'troeltsch ')",
+    "source": "('hal ',)",
+    "value": 21
+  }, {
+    "target": "('ted schacht ', 'schacht ')",
+    "source": "('hal ',)",
+    "value": 11
+  }, {
+    "target": "('bridget c. boone ', 'boone ')",
+    "source": "('hal ',)",
+    "value": 7
+  }, {
+    "target": "('mario ',)",
+    "source": "('hal ',)",
+    "value": 46
+  }, {
+    "target": "('schtitt ',)",
+    "source": "('hal ',)",
+    "value": 11
+  }, {
+    "target": "('poutrincourt ',)",
+    "source": "('hal ',)",
+    "value": 4
+  }, {
+    "target": "('thode ',)",
+    "source": "('hal ',)",
+    "value": 3
+  }, {
+    "target": "('delint ',)",
+    "source": "('hal ',)",
+    "value": 15
+  }, {
+    "target": "('barry loach ', 'loach ')",
+    "source": "('hal ',)",
+    "value": 3
+  }, {
+    "target": "('the moms ', 'avril ', 'mondragon ')",
+    "source": "('hal ',)",
+    "value": 33
+  }, {
+    "target": "('pemulis ',)",
+    "source": "('hal ',)",
+    "value": 49
+  }, {
+    "target": "('kevin bain ',)",
+    "source": "('hal ',)",
+    "value": 3
+  }, {
+    "target": "('steeply ', 'hugh ')",
+    "source": "('hal ',)",
+    "value": 5
+  }, {
+    "target": "('orin ',)",
+    "source": "('hal ',)",
+    "value": 22
+  }, {
+    "target": "('himself ', 'mad stork ', 'jim icandenza ', 'james incandenza ')",
+    "source": "('hal ',)",
+    "value": 31
+  }, {
+    "target": "('charles tavis ', 'tavis ')",
+    "source": "('hal ',)",
+    "value": 10
+  }, {
+    "target": "('rusk ',)",
+    "source": "('hal ',)",
+    "value": 4
+  }, {
+    "target": "('joelle ', 'van dyne ', 'lucille ')",
+    "source": "('hal ',)",
+    "value": 3
+  }, {
+    "target": "('waite ',)",
+    "source": "('hal ',)",
+    "value": 3
+  }, {
+    "target": "('ortho \"the darkness\" stice ', 'stice ', 'ortho ', 'the darkness ')",
+    "source": "('mario ',)",
+    "value": 3
+  }, {
+    "target": "('lyle ',)",
+    "source": "('mario ',)",
+    "value": 7
+  }, {
+    "target": "('james struck ', 'struck ')",
+    "source": "('mario ',)",
+    "value": 3
+  }, {
+    "target": "('jim troeltsch ', 'troeltsch ')",
+    "source": "('mario ',)",
+    "value": 3
+  }, {
+    "target": "('ted schacht ', 'schacht ')",
+    "source": "('mario ',)",
+    "value": 3
+  }, {
+    "target": "('hal ',)",
+    "source": "('mario ',)",
+    "value": 46
+  }, {
+    "target": "('schtitt ',)",
+    "source": "('mario ',)",
+    "value": 12
+  }, {
+    "target": "('delint ',)",
+    "source": "('mario ',)",
+    "value": 3
+  }, {
+    "target": "('the moms ', 'avril ', 'mondragon ')",
+    "source": "('mario ',)",
+    "value": 25
+  }, {
+    "target": "('pemulis ',)",
+    "source": "('mario ',)",
+    "value": 6
+  }, {
+    "target": "('orin ',)",
+    "source": "('mario ',)",
+    "value": 16
+  }, {
+    "target": "('himself ', 'mad stork ', 'jim icandenza ', 'james incandenza ')",
+    "source": "('mario ',)",
+    "value": 15
+  }, {
+    "target": "('lateral ', 'alice moore ')",
+    "source": "('mario ',)",
+    "value": 3
+  }, {
+    "target": "('charles tavis ', 'tavis ')",
+    "source": "('mario ',)",
+    "value": 4
+  }, {
+    "target": "('ortho \"the darkness\" stice ', 'stice ', 'ortho ', 'the darkness ')",
+    "source": "('schtitt ',)",
+    "value": 7
+  }, {
+    "target": "('hal ',)",
+    "source": "('schtitt ',)",
+    "value": 11
+  }, {
+    "target": "('mario ',)",
+    "source": "('schtitt ',)",
+    "value": 12
+  }, {
+    "target": "('thode ',)",
+    "source": "('schtitt ',)",
+    "value": 3
+  }, {
+    "target": "('delint ',)",
+    "source": "('schtitt ',)",
+    "value": 11
+  }, {
+    "target": "('the moms ', 'avril ', 'mondragon ')",
+    "source": "('schtitt ',)",
+    "value": 3
+  }, {
+    "target": "('orin ',)",
+    "source": "('schtitt ',)",
+    "value": 3
+  }, {
+    "target": "('himself ', 'mad stork ', 'jim icandenza ', 'james incandenza ')",
+    "source": "('schtitt ',)",
+    "value": 6
+  }, {
+    "target": "('charles tavis ', 'tavis ')",
+    "source": "('schtitt ',)",
+    "value": 6
+  }, {
+    "target": "('hal ',)",
+    "source": "('poutrincourt ',)",
+    "value": 4
+  }, {
+    "target": "('delint ',)",
+    "source": "('poutrincourt ',)",
+    "value": 4
+  }, {
+    "target": "('steeply ', 'hugh ')",
+    "source": "('poutrincourt ',)",
+    "value": 4
+  }, {
+    "target": "('hal ',)",
+    "source": "('thode ',)",
+    "value": 3
+  }, {
+    "target": "('schtitt ',)",
+    "source": "('thode ',)",
+    "value": 3
+  }, {
+    "target": "('kate gompert ', 'gompert ')",
+    "source": "('ruth ',)",
+    "value": 9
+  }, {
+    "target": "('ruth van cleve ',)",
+    "source": "('ruth ',)",
+    "value": 11
+  }, {
+    "target": "('joelle ', 'van dyne ', 'lucille ')",
+    "source": "('ruth ',)",
+    "value": 3
+  }, {
+    "target": "('gately ', 'don ')",
+    "source": "('ruth ',)",
+    "value": 3
+  }, {
+    "target": "('delint ',)",
+    "source": "('nwangi ',)",
+    "value": 4
+  }, {
+    "target": "('charles tavis ', 'tavis ')",
+    "source": "('nwangi ',)",
+    "value": 3
+  }, {
+    "target": "('ortho \"the darkness\" stice ', 'stice ', 'ortho ', 'the darkness ')",
+    "source": "('delint ',)",
+    "value": 12
+  }, {
+    "target": "('jim troeltsch ', 'troeltsch ')",
+    "source": "('delint ',)",
+    "value": 3
+  }, {
+    "target": "('hal ',)",
+    "source": "('delint ',)",
+    "value": 15
+  }, {
+    "target": "('mario ',)",
+    "source": "('delint ',)",
+    "value": 3
+  }, {
+    "target": "('schtitt ',)",
+    "source": "('delint ',)",
+    "value": 11
+  }, {
+    "target": "('poutrincourt ',)",
+    "source": "('delint ',)",
+    "value": 4
+  }, {
+    "target": "('nwangi ',)",
+    "source": "('delint ',)",
+    "value": 4
+  }, {
+    "target": "('pemulis ',)",
+    "source": "('delint ',)",
+    "value": 6
+  }, {
+    "target": "('steeply ', 'hugh ')",
+    "source": "('delint ',)",
+    "value": 8
+  }, {
+    "target": "('orin ',)",
+    "source": "('delint ',)",
+    "value": 3
+  }, {
+    "target": "('himself ', 'mad stork ', 'jim icandenza ', 'james incandenza ')",
+    "source": "('delint ',)",
+    "value": 3
+  }, {
+    "target": "('charles tavis ', 'tavis ')",
+    "source": "('delint ',)",
+    "value": 4
+  }, {
+    "target": "('joelle ', 'van dyne ', 'lucille ')",
+    "source": "('molly cantrell notkin ', 'notkin ')",
+    "value": 3
+  }, {
+    "target": "('hal ',)",
+    "source": "('barry loach ', 'loach ')",
+    "value": 3
+  }, {
+    "target": "('barry loach ',)",
+    "source": "('barry loach ', 'loach ')",
+    "value": 17
+  }, {
+    "target": "('hal ',)",
+    "source": "('the moms ', 'avril ', 'mondragon ')",
+    "value": 33
+  }, {
+    "target": "('mario ',)",
+    "source": "('the moms ', 'avril ', 'mondragon ')",
+    "value": 25
+  }, {
+    "target": "('schtitt ',)",
+    "source": "('the moms ', 'avril ', 'mondragon ')",
+    "value": 3
+  }, {
+    "target": "('pemulis ',)",
+    "source": "('the moms ', 'avril ', 'mondragon ')",
+    "value": 5
+  }, {
+    "target": "('orin ',)",
+    "source": "('the moms ', 'avril ', 'mondragon ')",
+    "value": 23
+  }, {
+    "target": "('himself ', 'mad stork ', 'jim icandenza ', 'james incandenza ')",
+    "source": "('the moms ', 'avril ', 'mondragon ')",
+    "value": 16
+  }, {
+    "target": "('charles tavis ', 'tavis ')",
+    "source": "('the moms ', 'avril ', 'mondragon ')",
+    "value": 7
+  }, {
+    "target": "('rusk ',)",
+    "source": "('the moms ', 'avril ', 'mondragon ')",
+    "value": 8
+  }, {
+    "target": "('joelle ', 'van dyne ', 'lucille ')",
+    "source": "('the moms ', 'avril ', 'mondragon ')",
+    "value": 11
+  }, {
+    "target": "('ann kittenplan ', 'kittenplan ')",
+    "source": "('pemulis ',)",
+    "value": 5
+  }, {
+    "target": "('otis p. lord ', 'lord ')",
+    "source": "('pemulis ',)",
+    "value": 10
+  }, {
+    "target": "('evan ingersoll ', 'ingersoll ')",
+    "source": "('pemulis ',)",
+    "value": 8
+  }, {
+    "target": "('ortho \"the darkness\" stice ', 'stice ', 'ortho ', 'the darkness ')",
+    "source": "('pemulis ',)",
+    "value": 13
+  }, {
+    "target": "('lyle ',)",
+    "source": "('pemulis ',)",
+    "value": 4
+  }, {
+    "target": "('trevor \"axhandle\" axford ', 'axford ', 'axhandle ')",
+    "source": "('pemulis ',)",
+    "value": 27
+  }, {
+    "target": "('keith freer ', 'freer ', 'the viking ')",
+    "source": "('pemulis ',)",
+    "value": 18
+  }, {
+    "target": "('james struck ', 'struck ')",
+    "source": "('pemulis ',)",
+    "value": 14
+  }, {
+    "target": "('tall paul shaw ', 'tp shaw ', 'shaw ')",
+    "source": "('pemulis ',)",
+    "value": 3
+  }, {
+    "target": "('jim troeltsch ', 'troeltsch ')",
+    "source": "('pemulis ',)",
+    "value": 23
+  }, {
+    "target": "('ted schacht ', 'schacht ')",
+    "source": "('pemulis ',)",
+    "value": 14
+  }, {
+    "target": "('bridget c. boone ', 'boone ')",
+    "source": "('pemulis ',)",
+    "value": 3
+  }, {
+    "target": "('hal ',)",
+    "source": "('pemulis ',)",
+    "value": 49
+  }, {
+    "target": "('mario ',)",
+    "source": "('pemulis ',)",
+    "value": 6
+  }, {
+    "target": "('delint ',)",
+    "source": "('pemulis ',)",
+    "value": 6
+  }, {
+    "target": "('the moms ', 'avril ', 'mondragon ')",
+    "source": "('pemulis ',)",
+    "value": 5
+  }, {
+    "target": "('orin ',)",
+    "source": "('pemulis ',)",
+    "value": 3
+  }, {
+    "target": "('himself ', 'mad stork ', 'jim icandenza ', 'james incandenza ')",
+    "source": "('pemulis ',)",
+    "value": 12
+  }, {
+    "target": "('lateral ', 'alice moore ')",
+    "source": "('pemulis ',)",
+    "value": 3
+  }, {
+    "target": "('charles tavis ', 'tavis ')",
+    "source": "('pemulis ',)",
+    "value": 10
+  }, {
+    "target": "('rusk ',)",
+    "source": "('pemulis ',)",
+    "value": 5
+  }, {
+    "target": "('steeply ', 'hugh ')",
+    "source": "('fortier ',)",
+    "value": 7
+  }, {
+    "target": "('marathe ', 'remy ')",
+    "source": "('fortier ',)",
+    "value": 19
+  }, {
+    "target": "('hal ',)",
+    "source": "('kevin bain ',)",
+    "value": 3
+  }, {
+    "target": "('orin ',)",
+    "source": "('marlon bain ', 'marlon ')",
+    "value": 3
+  }, {
+    "target": "('ortho \"the darkness\" stice ', 'stice ', 'ortho ', 'the darkness ')",
+    "source": "('steeply ', 'hugh ')",
+    "value": 5
+  }, {
+    "target": "('rodney tine ', 'rod the god ', 'rodney \"the god\" tine ')",
+    "source": "('steeply ', 'hugh ')",
+    "value": 3
+  }, {
+    "target": "('hal ',)",
+    "source": "('steeply ', 'hugh ')",
+    "value": 5
+  }, {
+    "target": "('poutrincourt ',)",
+    "source": "('steeply ', 'hugh ')",
+    "value": 4
+  }, {
+    "target": "('delint ',)",
+    "source": "('steeply ', 'hugh ')",
+    "value": 8
+  }, {
+    "target": "('fortier ',)",
+    "source": "('steeply ', 'hugh ')",
+    "value": 7
+  }, {
+    "target": "('marathe ', 'remy ')",
+    "source": "('steeply ', 'hugh ')",
+    "value": 82
+  }, {
+    "target": "('himself ', 'mad stork ', 'jim icandenza ', 'james incandenza ')",
+    "source": "('steeply ', 'hugh ')",
+    "value": 12
+  }, {
+    "target": "('hal ',)",
+    "source": "('orin ',)",
+    "value": 22
+  }, {
+    "target": "('mario ',)",
+    "source": "('orin ',)",
+    "value": 16
+  }, {
+    "target": "('schtitt ',)",
+    "source": "('orin ',)",
+    "value": 3
+  }, {
+    "target": "('delint ',)",
+    "source": "('orin ',)",
+    "value": 3
+  }, {
+    "target": "('the moms ', 'avril ', 'mondragon ')",
+    "source": "('orin ',)",
+    "value": 23
+  }, {
+    "target": "('pemulis ',)",
+    "source": "('orin ',)",
+    "value": 3
+  }, {
+    "target": "('marlon bain ', 'marlon ')",
+    "source": "('orin ',)",
+    "value": 3
+  }, {
+    "target": "('himself ', 'mad stork ', 'jim icandenza ', 'james incandenza ')",
+    "source": "('orin ',)",
+    "value": 37
+  }, {
+    "target": "('charles tavis ', 'tavis ')",
+    "source": "('orin ',)",
+    "value": 3
+  }, {
+    "target": "('joelle ', 'van dyne ', 'lucille ')",
+    "source": "('orin ',)",
+    "value": 33
+  }, {
+    "target": "('fortier ',)",
+    "source": "('marathe ', 'remy ')",
+    "value": 19
+  }, {
+    "target": "('steeply ', 'hugh ')",
+    "source": "('marathe ', 'remy ')",
+    "value": 82
+  }, {
+    "target": "('guillaume duplessis ', 'guillaume ', 'duplessis ')",
+    "source": "('marathe ', 'remy ')",
+    "value": 4
+  }, {
+    "target": "('himself ', 'mad stork ', 'jim icandenza ', 'james incandenza ')",
+    "source": "('marathe ', 'remy ')",
+    "value": 15
+  }, {
+    "target": "('marathe ', 'remy ')",
+    "source": "('guillaume duplessis ', 'guillaume ', 'duplessis ')",
+    "value": 4
+  }, {
+    "target": "('lucien ',)",
+    "source": "('bertraund ',)",
+    "value": 4
+  }, {
+    "target": "('bertraund ',)",
+    "source": "('lucien ',)",
+    "value": 4
+  }, {
+    "target": "('ruth ',)",
+    "source": "('kate gompert ', 'gompert ')",
+    "value": 9
+  }, {
+    "target": "('erdedy ',)",
+    "source": "('kate gompert ', 'gompert ')",
+    "value": 6
+  }, {
+    "target": "('ruth van cleve ',)",
+    "source": "('kate gompert ', 'gompert ')",
+    "value": 6
+  }, {
+    "target": "('kate gompert ', 'gompert ')",
+    "source": "('erdedy ',)",
+    "value": 6
+  }, {
+    "target": "('foltz ',)",
+    "source": "('erdedy ',)",
+    "value": 3
+  }, {
+    "target": "('randy ', 'lenz ')",
+    "source": "('erdedy ',)",
+    "value": 3
+  }, {
+    "target": "('joelle ', 'van dyne ', 'lucille ')",
+    "source": "('erdedy ',)",
+    "value": 5
+  }, {
+    "target": "('gately ', 'don ')",
+    "source": "('erdedy ',)",
+    "value": 5
+  }, {
+    "target": "('ruth ',)",
+    "source": "('ruth van cleve ',)",
+    "value": 11
+  }, {
+    "target": "('kate gompert ', 'gompert ')",
+    "source": "('ruth van cleve ',)",
+    "value": 6
+  }, {
+    "target": "('randy ', 'lenz ')",
+    "source": "('burt f. smith ', 'burt ')",
+    "value": 3
+  }, {
+    "target": "('emil minty ', 'emil ', 'yrstruly ')",
+    "source": "('poor tony ', 'krause ')",
+    "value": 13
+  }, {
+    "target": "('susan t. cheese ',)",
+    "source": "('poor tony ', 'krause ')",
+    "value": 4
+  }, {
+    "target": "('poor tony ', 'krause ')",
+    "source": "('emil minty ', 'emil ', 'yrstruly ')",
+    "value": 13
+  }, {
+    "target": "('poor tony ', 'krause ')",
+    "source": "('susan t. cheese ',)",
+    "value": 4
+  }, {
+    "target": "('ortho \"the darkness\" stice ', 'stice ', 'ortho ', 'the darkness ')",
+    "source": "('himself ', 'mad stork ', 'jim icandenza ', 'james incandenza ')",
+    "value": 3
+  }, {
+    "target": "('lyle ',)",
+    "source": "('himself ', 'mad stork ', 'jim icandenza ', 'james incandenza ')",
+    "value": 3
+  }, {
+    "target": "('james struck ', 'struck ')",
+    "source": "('himself ', 'mad stork ', 'jim icandenza ', 'james incandenza ')",
+    "value": 7
+  }, {
+    "target": "('jim troeltsch ', 'troeltsch ')",
+    "source": "('himself ', 'mad stork ', 'jim icandenza ', 'james incandenza ')",
+    "value": 4
+  }, {
+    "target": "('hal ',)",
+    "source": "('himself ', 'mad stork ', 'jim icandenza ', 'james incandenza ')",
+    "value": 31
+  }, {
+    "target": "('mario ',)",
+    "source": "('himself ', 'mad stork ', 'jim icandenza ', 'james incandenza ')",
+    "value": 15
+  }, {
+    "target": "('schtitt ',)",
+    "source": "('himself ', 'mad stork ', 'jim icandenza ', 'james incandenza ')",
+    "value": 6
+  }, {
+    "target": "('delint ',)",
+    "source": "('himself ', 'mad stork ', 'jim icandenza ', 'james incandenza ')",
+    "value": 3
+  }, {
+    "target": "('the moms ', 'avril ', 'mondragon ')",
+    "source": "('himself ', 'mad stork ', 'jim icandenza ', 'james incandenza ')",
+    "value": 16
+  }, {
+    "target": "('pemulis ',)",
+    "source": "('himself ', 'mad stork ', 'jim icandenza ', 'james incandenza ')",
+    "value": 12
+  }, {
+    "target": "('steeply ', 'hugh ')",
+    "source": "('himself ', 'mad stork ', 'jim icandenza ', 'james incandenza ')",
+    "value": 12
+  }, {
+    "target": "('orin ',)",
+    "source": "('himself ', 'mad stork ', 'jim icandenza ', 'james incandenza ')",
+    "value": 37
+  }, {
+    "target": "('marathe ', 'remy ')",
+    "source": "('himself ', 'mad stork ', 'jim icandenza ', 'james incandenza ')",
+    "value": 15
+  }, {
+    "target": "('charles tavis ', 'tavis ')",
+    "source": "('himself ', 'mad stork ', 'jim icandenza ', 'james incandenza ')",
+    "value": 4
+  }, {
+    "target": "('kenkle ',)",
+    "source": "('himself ', 'mad stork ', 'jim icandenza ', 'james incandenza ')",
+    "value": 3
+  }, {
+    "target": "('brandt ',)",
+    "source": "('himself ', 'mad stork ', 'jim icandenza ', 'james incandenza ')",
+    "value": 3
+  }, {
+    "target": "('montesian ',)",
+    "source": "('himself ', 'mad stork ', 'jim icandenza ', 'james incandenza ')",
+    "value": 3
+  }, {
+    "target": "('randy ', 'lenz ')",
+    "source": "('himself ', 'mad stork ', 'jim icandenza ', 'james incandenza ')",
+    "value": 8
+  }, {
+    "target": "('joelle ', 'van dyne ', 'lucille ')",
+    "source": "('himself ', 'mad stork ', 'jim icandenza ', 'james incandenza ')",
+    "value": 10
+  }, {
+    "target": "('wraith ',)",
+    "source": "('himself ', 'mad stork ', 'jim icandenza ', 'james incandenza ')",
+    "value": 5
+  }, {
+    "target": "('gately ', 'don ')",
+    "source": "('himself ', 'mad stork ', 'jim icandenza ', 'james incandenza ')",
+    "value": 39
+  }, {
+    "target": "('eugene ', 'fackelmann ')",
+    "source": "('himself ', 'mad stork ', 'jim icandenza ', 'james incandenza ')",
+    "value": 5
+  }, {
+    "target": "('jim troeltsch ', 'troeltsch ')",
+    "source": "('lateral ', 'alice moore ')",
+    "value": 4
+  }, {
+    "target": "('mario ',)",
+    "source": "('lateral ', 'alice moore ')",
+    "value": 3
+  }, {
+    "target": "('pemulis ',)",
+    "source": "('lateral ', 'alice moore ')",
+    "value": 3
+  }, {
+    "target": "('ortho \"the darkness\" stice ', 'stice ', 'ortho ', 'the darkness ')",
+    "source": "('charles tavis ', 'tavis ')",
+    "value": 4
+  }, {
+    "target": "('hal ',)",
+    "source": "('charles tavis ', 'tavis ')",
+    "value": 10
+  }, {
+    "target": "('mario ',)",
+    "source": "('charles tavis ', 'tavis ')",
+    "value": 4
+  }, {
+    "target": "('schtitt ',)",
+    "source": "('charles tavis ', 'tavis ')",
+    "value": 6
+  }, {
+    "target": "('nwangi ',)",
+    "source": "('charles tavis ', 'tavis ')",
+    "value": 3
+  }, {
+    "target": "('delint ',)",
+    "source": "('charles tavis ', 'tavis ')",
+    "value": 4
+  }, {
+    "target": "('the moms ', 'avril ', 'mondragon ')",
+    "source": "('charles tavis ', 'tavis ')",
+    "value": 7
+  }, {
+    "target": "('pemulis ',)",
+    "source": "('charles tavis ', 'tavis ')",
+    "value": 10
+  }, {
+    "target": "('orin ',)",
+    "source": "('charles tavis ', 'tavis ')",
+    "value": 3
+  }, {
+    "target": "('himself ', 'mad stork ', 'jim icandenza ', 'james incandenza ')",
+    "source": "('charles tavis ', 'tavis ')",
+    "value": 4
+  }, {
+    "target": "('barry loach ', 'loach ')",
+    "source": "('barry loach ',)",
+    "value": 17
+  }, {
+    "target": "('ortho \"the darkness\" stice ', 'stice ', 'ortho ', 'the darkness ')",
+    "source": "('rusk ',)",
+    "value": 3
+  }, {
+    "target": "('hal ',)",
+    "source": "('rusk ',)",
+    "value": 4
+  }, {
+    "target": "('the moms ', 'avril ', 'mondragon ')",
+    "source": "('rusk ',)",
+    "value": 8
+  }, {
+    "target": "('pemulis ',)",
+    "source": "('rusk ',)",
+    "value": 5
+  }, {
+    "target": "('himself ', 'mad stork ', 'jim icandenza ', 'james incandenza ')",
+    "source": "('kenkle ',)",
+    "value": 3
+  }, {
+    "target": "('brandt ',)",
+    "source": "('kenkle ',)",
+    "value": 13
+  }, {
+    "target": "('himself ', 'mad stork ', 'jim icandenza ', 'james incandenza ')",
+    "source": "('brandt ',)",
+    "value": 3
+  }, {
+    "target": "('kenkle ',)",
+    "source": "('brandt ',)",
+    "value": 13
+  }, {
+    "target": "('wade mcdade ', 'mcdade ')",
+    "source": "('doony ', 'glynn ')",
+    "value": 4
+  }, {
+    "target": "('gavin diehl ', 'gavin ', 'diehl ')",
+    "source": "('doony ', 'glynn ')",
+    "value": 3
+  }, {
+    "target": "('gately ', 'don ')",
+    "source": "('doony ', 'glynn ')",
+    "value": 5
+  }, {
+    "target": "('doony ', 'glynn ')",
+    "source": "('wade mcdade ', 'mcdade ')",
+    "value": 4
+  }, {
+    "target": "('gavin diehl ', 'gavin ', 'diehl ')",
+    "source": "('wade mcdade ', 'mcdade ')",
+    "value": 5
+  }, {
+    "target": "('randy ', 'lenz ')",
+    "source": "('wade mcdade ', 'mcdade ')",
+    "value": 4
+  }, {
+    "target": "('joelle ', 'van dyne ', 'lucille ')",
+    "source": "('wade mcdade ', 'mcdade ')",
+    "value": 3
+  }, {
+    "target": "('gately ', 'don ')",
+    "source": "('wade mcdade ', 'mcdade ')",
+    "value": 5
+  }, {
+    "target": "('gately ', 'don ')",
+    "source": "('chandler foss ', 'foss ')",
+    "value": 4
+  }, {
+    "target": "('randy ', 'lenz ')",
+    "source": "('hester ', 'thrale ')",
+    "value": 3
+  }, {
+    "target": "('gately ', 'don ')",
+    "source": "('hester ', 'thrale ')",
+    "value": 6
+  }, {
+    "target": "('doony ', 'glynn ')",
+    "source": "('gavin diehl ', 'gavin ', 'diehl ')",
+    "value": 3
+  }, {
+    "target": "('wade mcdade ', 'mcdade ')",
+    "source": "('gavin diehl ', 'gavin ', 'diehl ')",
+    "value": 5
+  }, {
+    "target": "('gately ', 'don ')",
+    "source": "('gavin diehl ', 'gavin ', 'diehl ')",
+    "value": 4
+  }, {
+    "target": "('gately ', 'don ')",
+    "source": "('tiny ewell ', 'ewell ')",
+    "value": 14
+  }, {
+    "target": "('himself ', 'mad stork ', 'jim icandenza ', 'james incandenza ')",
+    "source": "('montesian ',)",
+    "value": 3
+  }, {
+    "target": "('gately ', 'don ')",
+    "source": "('montesian ',)",
+    "value": 5
+  }, {
+    "target": "('randy ', 'lenz ')",
+    "source": "('bruce green ',)",
+    "value": 9
+  }, {
+    "target": "('gately ', 'don ')",
+    "source": "('bruce green ',)",
+    "value": 4
+  }, {
+    "target": "('erdedy ',)",
+    "source": "('foltz ',)",
+    "value": 3
+  }, {
+    "target": "('erdedy ',)",
+    "source": "('randy ', 'lenz ')",
+    "value": 3
+  }, {
+    "target": "('burt f. smith ', 'burt ')",
+    "source": "('randy ', 'lenz ')",
+    "value": 3
+  }, {
+    "target": "('himself ', 'mad stork ', 'jim icandenza ', 'james incandenza ')",
+    "source": "('randy ', 'lenz ')",
+    "value": 8
+  }, {
+    "target": "('wade mcdade ', 'mcdade ')",
+    "source": "('randy ', 'lenz ')",
+    "value": 4
+  }, {
+    "target": "('hester ', 'thrale ')",
+    "source": "('randy ', 'lenz ')",
+    "value": 3
+  }, {
+    "target": "('bruce green ',)",
+    "source": "('randy ', 'lenz ')",
+    "value": 9
+  }, {
+    "target": "('gately ', 'don ')",
+    "source": "('randy ', 'lenz ')",
+    "value": 26
+  }, {
+    "target": "('gately ', 'don ')",
+    "source": "('bobby c ',)",
+    "value": 7
+  }, {
+    "target": "('eugene ', 'fackelmann ')",
+    "source": "('bobby c ',)",
+    "value": 4
+  }, {
+    "target": "('gately ', 'don ')",
+    "source": "('pamela hoffman-jeep ', 'hoffman-jeep ')",
+    "value": 8
+  }, {
+    "target": "('eugene ', 'fackelmann ')",
+    "source": "('pamela hoffman-jeep ', 'hoffman-jeep ')",
+    "value": 3
+  }, {
+    "target": "('hal ',)",
+    "source": "('joelle ', 'van dyne ', 'lucille ')",
+    "value": 3
+  }, {
+    "target": "('ruth ',)",
+    "source": "('joelle ', 'van dyne ', 'lucille ')",
+    "value": 3
+  }, {
+    "target": "('molly cantrell notkin ', 'notkin ')",
+    "source": "('joelle ', 'van dyne ', 'lucille ')",
+    "value": 3
+  }, {
+    "target": "('the moms ', 'avril ', 'mondragon ')",
+    "source": "('joelle ', 'van dyne ', 'lucille ')",
+    "value": 11
+  }, {
+    "target": "('orin ',)",
+    "source": "('joelle ', 'van dyne ', 'lucille ')",
+    "value": 33
+  }, {
+    "target": "('erdedy ',)",
+    "source": "('joelle ', 'van dyne ', 'lucille ')",
+    "value": 5
+  }, {
+    "target": "('himself ', 'mad stork ', 'jim icandenza ', 'james incandenza ')",
+    "source": "('joelle ', 'van dyne ', 'lucille ')",
+    "value": 10
+  }, {
+    "target": "('wade mcdade ', 'mcdade ')",
+    "source": "('joelle ', 'van dyne ', 'lucille ')",
+    "value": 3
+  }, {
+    "target": "('gately ', 'don ')",
+    "source": "('joelle ', 'van dyne ', 'lucille ')",
+    "value": 24
+  }, {
+    "target": "('himself ', 'mad stork ', 'jim icandenza ', 'james incandenza ')",
+    "source": "('wraith ',)",
+    "value": 5
+  }, {
+    "target": "('gately ', 'don ')",
+    "source": "('wraith ',)",
+    "value": 20
+  }, {
+    "target": "('gately ', 'don ')",
+    "source": "('glenn ', 'glenn k ')",
+    "value": 3
+  }, {
+    "target": "('gately ', 'don ')",
+    "source": "('ferocious francis ', 'francis ')",
+    "value": 12
+  }, {
+    "target": "('eighties bill ',)",
+    "source": "('whitey sorkin ', 'sorkin ')",
+    "value": 5
+  }, {
+    "target": "('gately ', 'don ')",
+    "source": "('whitey sorkin ', 'sorkin ')",
+    "value": 13
+  }, {
+    "target": "('eugene ', 'fackelmann ')",
+    "source": "('whitey sorkin ', 'sorkin ')",
+    "value": 10
+  }, {
+    "target": "('whitey sorkin ', 'sorkin ')",
+    "source": "('eighties bill ',)",
+    "value": 5
+  }, {
+    "target": "('eugene ', 'fackelmann ')",
+    "source": "('eighties bill ',)",
+    "value": 3
+  }, {
+    "target": "('james struck ', 'struck ')",
+    "source": "('gately ', 'don ')",
+    "value": 3
+  }, {
+    "target": "('ruth ',)",
+    "source": "('gately ', 'don ')",
+    "value": 3
+  }, {
+    "target": "('erdedy ',)",
+    "source": "('gately ', 'don ')",
+    "value": 5
+  }, {
+    "target": "('himself ', 'mad stork ', 'jim icandenza ', 'james incandenza ')",
+    "source": "('gately ', 'don ')",
+    "value": 39
+  }, {
+    "target": "('doony ', 'glynn ')",
+    "source": "('gately ', 'don ')",
+    "value": 5
+  }, {
+    "target": "('wade mcdade ', 'mcdade ')",
+    "source": "('gately ', 'don ')",
+    "value": 5
+  }, {
+    "target": "('chandler foss ', 'foss ')",
+    "source": "('gately ', 'don ')",
+    "value": 4
+  }, {
+    "target": "('hester ', 'thrale ')",
+    "source": "('gately ', 'don ')",
+    "value": 6
+  }, {
+    "target": "('gavin diehl ', 'gavin ', 'diehl ')",
+    "source": "('gately ', 'don ')",
+    "value": 4
+  }, {
+    "target": "('tiny ewell ', 'ewell ')",
+    "source": "('gately ', 'don ')",
+    "value": 14
+  }, {
+    "target": "('montesian ',)",
+    "source": "('gately ', 'don ')",
+    "value": 5
+  }, {
+    "target": "('bruce green ',)",
+    "source": "('gately ', 'don ')",
+    "value": 4
+  }, {
+    "target": "('randy ', 'lenz ')",
+    "source": "('gately ', 'don ')",
+    "value": 26
+  }, {
+    "target": "('bobby c ',)",
+    "source": "('gately ', 'don ')",
+    "value": 7
+  }, {
+    "target": "('pamela hoffman-jeep ', 'hoffman-jeep ')",
+    "source": "('gately ', 'don ')",
+    "value": 8
+  }, {
+    "target": "('joelle ', 'van dyne ', 'lucille ')",
+    "source": "('gately ', 'don ')",
+    "value": 24
+  }, {
+    "target": "('wraith ',)",
+    "source": "('gately ', 'don ')",
+    "value": 20
+  }, {
+    "target": "('glenn ', 'glenn k ')",
+    "source": "('gately ', 'don ')",
+    "value": 3
+  }, {
+    "target": "('ferocious francis ', 'francis ')",
+    "source": "('gately ', 'don ')",
+    "value": 12
+  }, {
+    "target": "('whitey sorkin ', 'sorkin ')",
+    "source": "('gately ', 'don ')",
+    "value": 13
+  }, {
+    "target": "('eugene ', 'fackelmann ')",
+    "source": "('gately ', 'don ')",
+    "value": 41
+  }, {
+    "target": "('waite ',)",
+    "source": "('gately ', 'don ')",
+    "value": 5
+  }, {
+    "target": "('himself ', 'mad stork ', 'jim icandenza ', 'james incandenza ')",
+    "source": "('eugene ', 'fackelmann ')",
+    "value": 5
+  }, {
+    "target": "('bobby c ',)",
+    "source": "('eugene ', 'fackelmann ')",
+    "value": 4
+  }, {
+    "target": "('pamela hoffman-jeep ', 'hoffman-jeep ')",
+    "source": "('eugene ', 'fackelmann ')",
+    "value": 3
+  }, {
+    "target": "('whitey sorkin ', 'sorkin ')",
+    "source": "('eugene ', 'fackelmann ')",
+    "value": 10
+  }, {
+    "target": "('eighties bill ',)",
+    "source": "('eugene ', 'fackelmann ')",
+    "value": 3
+  }, {
+    "target": "('gately ', 'don ')",
+    "source": "('eugene ', 'fackelmann ')",
+    "value": 41
+  }, {
+    "target": "('todd \"postal weight\" possalthwaite ', 'possalthwaite ', 'postal weight ')",
+    "source": "('waite ',)",
+    "value": 21
+  }, {
+    "target": "('hal ',)",
+    "source": "('waite ',)",
+    "value": 3
+  }, {
+    "target": "('gately ', 'don ')",
+    "source": "('waite ',)",
+    "value": 5
+  }]
+}
