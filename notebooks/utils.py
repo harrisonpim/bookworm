@@ -6,9 +6,10 @@ from nltk.tokenize import word_tokenize
 from random import randint
 
 
-def load_book(bookPath):
-    with open(bookPath) as f:
+def load_book(bookPath, lower=True):
+    with open(bookPath) as f: 
         book = f.read()
+    if lower: 
         book = book.lower()
     return book
 
