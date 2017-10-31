@@ -1,3 +1,5 @@
 pandas
 numpy
 nltk
+spacy
+networkx
