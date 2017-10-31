@@ -6,7 +6,7 @@ from nltk.tokenize import word_tokenize
 import string
 
 
-def load_book(book_path, lower=True):
+def load_book(book_path, lower=False):
     '''
     Reads in a novel from a .txt file, and returns it in (optionally
     lowercased) string form
@@ -249,3 +249,82 @@ def calculate_cooccurence(df):
     for i in cooccurence.index.values:
         cooccurence[i][i] = 0
     return cooccurence
+
+
+def get_interaction_df(cooccurence, characters, strip_zeros=True):
+    '''
+    Produces an dataframe of interactions between characters using the
+    cooccurence matrix of those characters. The return format is directly
+    analysable by networkx in the construction of a graph of characters.
+
+    Parameters
+    ----------
+    cooccurence : pandas.DataFrame (required)
+        columns = hashes of character names
+        indexes = hashes of character names
+        values  = counts of character name cooccurences in all sequences
+    strip_zeros : bool (optional)
+        if True, get_interaction_df() will only return a list of the character
+        interactions which are non-zero. Otherwise the full list is returned.
+
+    Returns
+    -------
+    interaction_df : pandas.DataFrame
+        DataFrame enumerating the strength of interactions between charcters.
+        source = character one
+        target = character two
+        value = strength of interaction between character one and character two
+    '''
+    interaction_df = pd.DataFrame([[str(c1),
+                                    str(c2),
+                                    cooccurence[hash(c1)][hash(c2)]]
+                                   for c1 in characters
+                                   for c2 in characters],
+                                  columns=['source', 'target', 'value'])
+
+    if strip_zeros is True:
+        interaction_df = interaction_df[interaction_df['value'] > 0]
+    return interaction_df
+
+
+def bookworm(book_path, charaters_path=None):
+    '''
+    Wraps the full bookworm analysis from the raw .txt file's path, to
+    production of the complete interaction dataframe. The returned dataframe is
+    directly analysable by networkx using:
+
+    nx.from_pandas_dataframe(interaction_df,
+                             source='source',
+                             target='target')
+
+    Parameters
+    ----------
+    book_path : string (required)
+        path to txt file containing full text of book to be analysed
+    charaters_path : string (optional)
+        path to csv file containing full list of characters to be examined
+    auto_extract : book (optional)
+        If True, plausible character names will be automatically extracted from
+        the novel's text and used in the analysis.
+        If False, the user must provide a value for charaters_path
+
+    Returns
+    -------
+    interaction_df : pandas.DataFrame
+        DataFrame enumerating the strength of interactions between charcters.
+        source = character one
+        target = character two
+        value = strength of interaction between character one and character two
+    '''
+    book = load_book(book_path)
+    sequences = get_character_sequences(book)
+
+    if charaters_path is None:
+        characters = extract_character_names(book)
+    else:
+        characters = load_characters(charaters_path)
+
+    df = find_connections(sequences, characters)
+    cooccurence = calculate_cooccurence(df)
+
+    return get_interaction_df(cooccurence, characters)

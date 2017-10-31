@@ -6,14 +6,14 @@ from nltk.tokenize import word_tokenize
 import string
 
 
-def load_book(bookPath, lower=True):
+def load_book(book_path, lower=False):
     '''
     Reads in a novel from a .txt file, and returns it in (optionally
     lowercased) string form
 
     Parameters
     ----------
-    bookPath : string (required)
+    book_path : string (required)
         path to txt file containing full text of book to be analysed
     lower : bool (optional)
         If True, the returned string will be lowercased;
@@ -24,20 +24,20 @@ def load_book(bookPath, lower=True):
     book : string
         book in string form
     '''
-    with open(bookPath) as f:
+    with open(book_path) as f:
         book = f.read()
     if lower:
         book = book.lower()
     return book
 
 
-def load_characters(charatersPath):
+def load_characters(charaters_path):
     '''
     Reads in a .txt file and returns it in (optionally lowercased) string form
 
     Parameters
     ----------
-    charatersPath : string (required)
+    charaters_path : string (required)
         path to csv file containing full list of characters to be examined.
         Each character should take up one line of the file. If the character is
         referred to by multiple names, nicknames or sub-names within their
@@ -51,10 +51,27 @@ def load_characters(charatersPath):
     characters : list
         list of tuples naming characters in text
     '''
-    with open(charatersPath) as f:
+    with open(charaters_path) as f:
         reader = csv.reader(f)
         characters = [tuple(name.lower()+' ' for name in row) for row in reader]
     return characters
+
+
+def remove_punctuation(input_string):
+    '''
+    Removes all punctuation from an input string
+
+    Parameters
+    ----------
+    input_string : string (required)
+        input string
+
+    Returns
+    -------
+    clean_string : string
+        clean string
+    '''
+    return input_string.translate(str.maketrans('', '', string.punctuation+'’'))
 
 
 def extract_character_names(book):
@@ -74,9 +91,7 @@ def extract_character_names(book):
     nlp = spacy.load('en')
     stopwords = nltk.corpus.stopwords.words('english')
 
-    remove_punctuation = lambda s: s.translate(str.maketrans('', '', string.punctuation+'’'))
-
-    words = [remove_punctuation(p) for p in book.split()]
+    words = [remove_punctuation(w) for w in book.split()]
     unique_words = list(set(words))
 
     characters = [word.text for word in nlp(' '.join(unique_words)) if word.pos_ == 'PROPN']
@@ -152,52 +167,29 @@ def get_character_sequences(book, n=200):
     return [''.join(book[i: i+n]) for i in range(0, len(book), n)]
 
 
-def get_sequence_hashes(sequences):
+def get_hashes(input_strings):
     '''
     Takes a list of strings and returns a pair of dictionaries representing
     their hashes.
 
     Parameters
     ----------
-    sequences : list (required)
-        list of string sequences which represent the novel to be interpreted
+    input_strings : list (required)
+        a list of strings: either word/character sequences which represent the
+        novel to be interpreted, or a list of character names
 
     Returns
     -------
-    hash_to_sequence : dict
-        keys   = hash of sequence strings
-        values = sequence strings
-    sequence_to_hash : dict
-        keys   = sequence strings
-        values = hash of sequence strings
+    hashes_to_strings : dict
+        keys   = hash of strings
+        values = strings
+    strings_to_hashes : dict
+        keys   = strings
+        values = hash of strings
     '''
-    hash_to_sequence = {hash(s): s for s in sequences}
-    sequence_to_hash = {s: hash(s) for s in sequences}
-    return hash_to_sequence, sequence_to_hash
-
-
-def get_character_hashes(characters):
-    '''
-    Takes a list of tuples of strings (character names) and returns a pair of
-    dictionaries representing their hashes.
-
-    Parameters
-    ----------
-    characters : list (required)
-        list of charater names (as tuples)
-
-    Returns
-    -------
-    hash_to_character : dict
-        keys   = hash of character names
-        values = character names
-    character_to_hash : dict
-        keys   = character names
-        values = hash of character names
-    '''
-    hash_to_character = {hash(c): c for c in characters}
-    character_to_hash = {c: hash(c) for c in characters}
-    return hash_to_character, character_to_hash
+    hashes_to_strings = {hash(s): s for s in input_strings}
+    strings_to_hashes = {s: hash(s) for s in input_strings}
+    return hashes_to_strings, strings_to_hashes
 
 
 def find_connections(sequences, characters):
@@ -220,8 +212,8 @@ def find_connections(sequences, characters):
         values  = counts of instances of character name in sequence
     '''
     # get hashes for characters and sequences
-    hash_to_sequence, sequence_to_hash = get_sequence_hashes(sequences)
-    hash_to_character, character_to_hash = get_character_hashes(characters)
+    hash_to_sequence, sequence_to_hash = get_hashes(sequences)
+    hash_to_character, character_to_hash = get_hashes(characters)
 
     # instantiate blank dataframe
     df = pd.DataFrame({hash(c): {hash(s): 0 for s in sequences} for c in characters})
@@ -257,3 +249,82 @@ def calculate_cooccurence(df):
     for i in cooccurence.index.values:
         cooccurence[i][i] = 0
     return cooccurence
+
+
+def get_interaction_df(cooccurence, characters, strip_zeros=True):
+    '''
+    Produces an dataframe of interactions between characters using the
+    cooccurence matrix of those characters. The return format is directly
+    analysable by networkx in the construction of a graph of characters.
+
+    Parameters
+    ----------
+    cooccurence : pandas.DataFrame (required)
+        columns = hashes of character names
+        indexes = hashes of character names
+        values  = counts of character name cooccurences in all sequences
+    strip_zeros : bool (optional)
+        if True, get_interaction_df() will only return a list of the character
+        interactions which are non-zero. Otherwise the full list is returned.
+
+    Returns
+    -------
+    interaction_df : pandas.DataFrame
+        DataFrame enumerating the strength of interactions between charcters.
+        source = character one
+        target = character two
+        value = strength of interaction between character one and character two
+    '''
+    interaction_df = pd.DataFrame([[str(c1),
+                                    str(c2),
+                                    cooccurence[hash(c1)][hash(c2)]]
+                                   for c1 in characters
+                                   for c2 in characters],
+                                  columns=['source', 'target', 'value'])
+
+    if strip_zeros is True:
+        interaction_df = interaction_df[interaction_df['value'] > 0]
+    return interaction_df
+
+
+def bookworm(book_path, charaters_path=None):
+    '''
+    Wraps the full bookworm analysis from the raw .txt file's path, to
+    production of the complete interaction dataframe. The returned dataframe is
+    directly analysable by networkx using:
+
+    nx.from_pandas_dataframe(interaction_df,
+                             source='source',
+                             target='target')
+
+    Parameters
+    ----------
+    book_path : string (required)
+        path to txt file containing full text of book to be analysed
+    charaters_path : string (optional)
+        path to csv file containing full list of characters to be examined
+    auto_extract : book (optional)
+        If True, plausible character names will be automatically extracted from
+        the novel's text and used in the analysis.
+        If False, the user must provide a value for charaters_path
+
+    Returns
+    -------
+    interaction_df : pandas.DataFrame
+        DataFrame enumerating the strength of interactions between charcters.
+        source = character one
+        target = character two
+        value = strength of interaction between character one and character two
+    '''
+    book = load_book(book_path)
+    sequences = get_character_sequences(book)
+
+    if charaters_path is None:
+        characters = extract_character_names(book)
+    else:
+        characters = load_characters(charaters_path)
+
+    df = find_connections(sequences, characters)
+    cooccurence = calculate_cooccurence(df)
+
+    return get_interaction_df(cooccurence, characters)
