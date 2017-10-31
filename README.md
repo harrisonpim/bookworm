@@ -13,7 +13,7 @@ I thought that with a bit of thought and testing, this process was probably auto
 
 ### Usage
 #### Command Line Usage
-The `bookworm('path/to/book.txt')` function wraps the above steps into one, allowing the entire analysis process to be run easily from the command line
+The `bookworm('path/to/book.txt')` function wraps the following steps into one simple command, allowing the entire analysis process to be run easily from the command line
 ```bash
 python src/run_bookworm.py 'path/to/book.txt'
 ```
