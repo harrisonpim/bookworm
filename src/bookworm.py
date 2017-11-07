@@ -33,7 +33,7 @@ def load_book(book_path, lower=False):
 
 def load_characters(charaters_path):
     '''
-    Reads in a .txt file and returns it in (optionally lowercased) string form
+    Reads in a .csv file of character names
 
     Parameters
     ----------
