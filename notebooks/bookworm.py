@@ -33,7 +33,7 @@ def load_book(book_path, lower=False):
 
 def load_characters(charaters_path):
     '''
-    Reads in a .txt file and returns it in (optionally lowercased) string form
+    Reads in a .csv file of character names
 
     Parameters
     ----------
@@ -285,6 +285,31 @@ def get_interaction_df(cooccurence, characters, strip_zeros=True):
     if strip_zeros is True:
         interaction_df = interaction_df[interaction_df['value'] > 0]
     return interaction_df
+
+
+def d3_dict(interaction_df):
+    '''
+    Reformats a DataFrame of interactions into a dictionary which is
+    interpretable by the Mike Bostock's d3.js force directed graph script
+    https://bl.ocks.org/mbostock/4062045
+
+    Parameters
+    ----------
+    interaction_df : pandas.DataFrame (required)
+        DataFrame enumerating the strength of interactions between charcters.
+        source = character one
+        target = character two
+        value = strength of interaction between character one and character two
+
+    Returns
+    -------
+    d3_dict : dict
+        a dictionary of nodes and links in a format which is immediately
+        interpretable by the d3.js script
+    '''
+    nodes = [{"id": str(id), "group": 1} for id in set(interaction_df['source'])]
+    links = interaction_df.to_dict(orient='records')
+    return {'nodes': nodes, 'links': links}
 
 
 def bookworm(book_path, charaters_path=None):
