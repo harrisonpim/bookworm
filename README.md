@@ -52,4 +52,4 @@ From there, all sorts of interesting analysis can be done. See the project's [as
 ### Navigation
 - [src](src) for the code itself.
 - [notebooks](notebooks) for example usage (with a load of interwoven description of how the thing actually works), in jupyter notebook form.
-- [data](data) for the example texts I've used to test the project. Technically these aren't in the public domain yet so i should probably switch these out for some of the books made available through [Project Gutenberg](https://www.gutenberg.org/browse/scores/top#books-last30) instead.
+- [data](data) for the example explicit character lists that I've used to test the project. Novel texts are variously available online - [Project Gutenberg](https://www.gutenberg.org/browse/scores/top#books-last30) is a great source of clean data, downloadable in .txt form, while [The British Library](https://data.bl.uk/digbks/) hosts huge amounts of (admittedly poor) OCR in XML form.
