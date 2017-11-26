@@ -251,7 +251,7 @@ def calculate_cooccurence(df):
     return cooccurence
 
 
-def get_interaction_df(cooccurence, characters, strip_zeros=True):
+def get_interaction_df(cooccurence, characters, threshold=0):
     '''
     Produces an dataframe of interactions between characters using the
     cooccurence matrix of those characters. The return format is directly
@@ -282,37 +282,11 @@ def get_interaction_df(cooccurence, characters, strip_zeros=True):
                                    for c2 in characters],
                                   columns=['source', 'target', 'value'])
 
-    if strip_zeros is True:
-        interaction_df = interaction_df[interaction_df['value'] > 0]
+    interaction_df = interaction_df[interaction_df['value'] > threshold]
     return interaction_df
 
 
-def d3_dict(interaction_df):
-    '''
-    Reformats a DataFrame of interactions into a dictionary which is
-    interpretable by the Mike Bostock's d3.js force directed graph script
-    https://bl.ocks.org/mbostock/4062045
-
-    Parameters
-    ----------
-    interaction_df : pandas.DataFrame (required)
-        DataFrame enumerating the strength of interactions between charcters.
-        source = character one
-        target = character two
-        value = strength of interaction between character one and character two
-
-    Returns
-    -------
-    d3_dict : dict
-        a dictionary of nodes and links in a format which is immediately
-        interpretable by the d3.js script
-    '''
-    nodes = [{"id": str(id), "group": 1} for id in set(interaction_df['source'])]
-    links = interaction_df.to_dict(orient='records')
-    return {'nodes': nodes, 'links': links}
-
-
-def bookworm(book_path, charaters_path=None):
+def bookworm(book_path, charaters_path=None, threshold=2):
     '''
     Wraps the full bookworm analysis from the raw .txt file's path, to
     production of the complete interaction dataframe. The returned dataframe is
@@ -328,10 +302,6 @@ def bookworm(book_path, charaters_path=None):
         path to txt file containing full text of book to be analysed
     charaters_path : string (optional)
         path to csv file containing full list of characters to be examined
-    auto_extract : book (optional)
-        If True, plausible character names will be automatically extracted from
-        the novel's text and used in the analysis.
-        If False, the user must provide a value for charaters_path
 
     Returns
     -------
@@ -342,7 +312,7 @@ def bookworm(book_path, charaters_path=None):
         value = strength of interaction between character one and character two
     '''
     book = load_book(book_path)
-    sequences = get_character_sequences(book)
+    sequences = get_sentence_sequences(book)
 
     if charaters_path is None:
         characters = extract_character_names(book)
@@ -351,5 +321,4 @@ def bookworm(book_path, charaters_path=None):
 
     df = find_connections(sequences, characters)
     cooccurence = calculate_cooccurence(df)
-
-    return get_interaction_df(cooccurence, characters)
+    return get_interaction_df(cooccurence, characters, threshold)
