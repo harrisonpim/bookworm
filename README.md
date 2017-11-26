@@ -15,8 +15,11 @@ I thought that with a bit of thought and testing, this process was probably auto
 #### Command Line Usage
 The `bookworm('path/to/book.txt')` function wraps the following steps into one simple command, allowing the entire analysis process to be run easily from the command line
 ```bash
-python src/run_bookworm.py 'path/to/book.txt'
+python run_bookworm.py --path 'path/to/book.txt'
 ```
+- Add `--d3` to format the output for interpretation by the d3.js force directed graph
+- Add `--threshold n` where n is an integer to specify the minimum character interaction strength to be included in the output (default 2)
+- Add `--output_file 'path/to/file'` to specify where the .json or .csv should be left
 
 #### Detailed API Usage
 Start by loading in a book
@@ -47,9 +50,9 @@ nx.from_pandas_dataframe(interaction_df,
                          source='source',
                          target='target')
 ```
-From there, all sorts of interesting analysis can be done. See the project's [associated jupyter notebooks](notebooks) and the [networkx documentation](https://networkx.github.io/documentation/stable/index.html) for more details.
+From there, all sorts of interesting analysis can be done. See the project's [associated jupyter notebooks](01%20-%20Intro to Bookworm.ipynb) and the [networkx documentation](https://networkx.github.io/documentation/stable/index.html) for more details.
 
 ### Navigation
 - [src](src) for the code itself.
-- Notebooks for example usage (with a load of interwoven description of how the thing actually works), in jupyter notebook form. [Start Here!](./01%20-%20Intro to Bookworm.ipynb)
+- Notebooks for example usage (with a load of interwoven description of how the thing actually works), in jupyter notebook form. [Start Here!](01%20-%20Intro to Bookworm.ipynb)
 - [data](data) for the example explicit character lists that I've used to test the project. Novel texts are variously available online - [Project Gutenberg](https://www.gutenberg.org/browse/scores/top#books-last30) is a great source of clean data, downloadable in .txt form, while [The British Library](https://data.bl.uk/digbks/) hosts huge amounts of (admittedly poor) OCR in XML form.
