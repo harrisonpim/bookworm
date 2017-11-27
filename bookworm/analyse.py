@@ -1,5 +1,6 @@
 import networkx as nx
 import pandas as pd
+import numpy as np
 import networkx as nx
 from nltk.tokenize import word_tokenize
 from .build_network import *
@@ -26,6 +27,77 @@ def character_density(book_path):
                                           target='target')
     n_characters = len(book_graph.nodes())
     return n_characters / book_length
+
+
+def split_book(book, n_sections=10, cumulative=True):
+    '''
+    Split a book into n equal parts, with optional cumulative aggregation
+
+    Parameters
+    ----------
+    book : string (required)
+        the book to be split
+    n_sections :  (optional)
+        the number of sections which we want to split our book into
+    cumulative : bool (optional)
+        If true, the returned sections will be cumulative, ie all
+        will start at the book's beginning and end at evenly distributed
+        points throughout the book
+
+    Returns
+    -------
+    split_book : list
+        the given book split into the specified number of even (or, if
+        cumulative is set to True, uneven) sections
+    '''
+    book_sequences = get_sentence_sequences(book)
+    split_book = np.array_split(np.array(book_sequences), n_sections)
+
+    if cumulative is True:
+        split_book = [np.concatenate(split_book[:pos + 1])
+                      for pos, section in enumerate(split_book)]
+
+    return split_book
+
+
+def chronological_network(book_path, n_sections=10, cumulative=True):
+    '''
+    Split a book into n equal parts, with optional cumulative aggregation, and
+    return a dictionary of assembled character graphs
+
+    Parameters
+    ----------
+    book_path : string (required)
+        path to the .txt file containing the book to be split
+    n_sections :  (optional)
+        the number of sections which we want to split our book into
+    cumulative : bool (optional)
+        If true, the returned sections will be cumulative, ie all will start at
+        the book's beginning and end at evenly distributed points throughout
+        the book
+
+    Returns
+    -------
+    graph_dict : dict
+        a dictionary containing the graphs of each split book section
+        keys = section index
+        values = nx.Graph describing the character graph in the specified book
+                 section
+    '''
+    book = load_book(book_path)
+    sections = split_book(book, n_sections, cumulative)
+    graph_dict = {}
+
+    for i, section in enumerate(sections):
+        characters = extract_character_names(' '.join(section))
+        df = find_connections(sequences=section, characters=characters)
+        cooccurence = calculate_cooccurence(df)
+        interaction_df = get_interaction_df(cooccurence, threshold=2)
+
+        graph_dict[i] = nx.from_pandas_dataframe(interaction_df,
+                                                 source='source',
+                                                 target='target')
+    return graph_dict
 
 
 def select_k(spectrum):

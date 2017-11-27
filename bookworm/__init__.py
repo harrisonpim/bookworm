@@ -16,10 +16,12 @@ __all__ = [
            'get_interaction_df',
            'bookworm',
            # analyse
+           'character_density',
+           'split_book',
+           'chronological_network',
            'select_k',
            'graph_similarity',
            'comparison_df',
-           'character_density',
            # visualise
            'draw_with_communities',
            'd3_dict',
