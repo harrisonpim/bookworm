@@ -215,9 +215,10 @@ def calculate_cooccurence(df):
         indexes = character names
         values  = counts of character name cooccurences in all sequences
     '''
-    cooccurence = df.T.dot(df)
-    for i in cooccurence.index.values:
-        cooccurence[i][i] = 0
+    characters = df.columns.values
+    cooccurence = df.values.T.dot(df.values)
+    np.fill_diagonal(cooccurence, 0)
+    cooccurence = pd.DataFrame(cooccurence, columns=characters, index=characters)
     return cooccurence
 
 
