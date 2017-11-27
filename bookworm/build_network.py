@@ -220,7 +220,7 @@ def calculate_cooccurence(df):
     return cooccurence
 
 
-def get_interaction_df(cooccurence, characters, threshold=0):
+def get_interaction_df(cooccurence, threshold=0):
     '''
     Produces an dataframe of interactions between characters using the
     cooccurence matrix of those characters. The return format is directly
@@ -232,9 +232,9 @@ def get_interaction_df(cooccurence, characters, threshold=0):
         columns = character names
         indexes = character names
         values  = counts of character name cooccurences in all sequences
-    strip_zeros : bool (optional)
-        if True, get_interaction_df() will only return a list of the character
-        interactions which are non-zero. Otherwise the full list is returned.
+    threshold : int (optional)
+        The minimum character interaction strength needed to be included in the
+        returned interaction_df
 
     Returns
     -------
@@ -244,6 +244,7 @@ def get_interaction_df(cooccurence, characters, threshold=0):
         target = character two
         value = strength of interaction between character one and character two
     '''
+    characters = cooccurence.index.values
     interaction_df = pd.DataFrame([[str(c1),
                                     str(c2),
                                     cooccurence[str(c1)][str(c2)]]
