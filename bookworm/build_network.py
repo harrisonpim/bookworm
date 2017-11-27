@@ -289,4 +289,4 @@ def bookworm(book_path, charaters_path=None, threshold=2):
 
     df = find_connections(sequences, characters)
     cooccurence = calculate_cooccurence(df)
-    return get_interaction_df(cooccurence, characters, threshold)
+    return get_interaction_df(cooccurence, threshold)
