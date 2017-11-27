@@ -95,7 +95,7 @@ def extract_character_names(book):
     unique_words = list(set(words))
 
     characters = [word.text for word in nlp(' '.join(unique_words)) if word.pos_ == 'PROPN']
-    characters = [c for c in characters if len(c) > 3]
+    characters = [c for c in characters if len(c) > 2]
     characters = [c for c in characters if c.istitle()]
     characters = [c for c in characters if not (c[-1] == 's' and c[:-1] in characters)]
     characters = list(set([c.title() for c in [c.lower() for c in characters]]) - set(stopwords))
@@ -167,31 +167,6 @@ def get_character_sequences(book, n=200):
     return [''.join(book[i: i+n]) for i in range(0, len(book), n)]
 
 
-def get_hashes(input_strings):
-    '''
-    Takes a list of strings and returns a pair of dictionaries representing
-    their hashes.
-
-    Parameters
-    ----------
-    input_strings : list (required)
-        a list of strings: either word/character sequences which represent the
-        novel to be interpreted, or a list of character names
-
-    Returns
-    -------
-    hashes_to_strings : dict
-        keys   = hash of strings
-        values = strings
-    strings_to_hashes : dict
-        keys   = strings
-        values = hash of strings
-    '''
-    hashes_to_strings = {hash(s): s for s in input_strings}
-    strings_to_hashes = {s: hash(s) for s in input_strings}
-    return hashes_to_strings, strings_to_hashes
-
-
 def find_connections(sequences, characters):
     '''
     Takes a novel and its character list and counts instances of each character
@@ -207,22 +182,16 @@ def find_connections(sequences, characters):
     Returns
     -------
     df : pandas.DataFrame
-        columns = hashes of character names
-        indexes = hashes of sequences
+        columns = character names
+        indexes = sequences
         values  = counts of instances of character name in sequence
     '''
-    # get hashes for characters and sequences
-    hash_to_sequence, sequence_to_hash = get_hashes(sequences)
-    hash_to_character, character_to_hash = get_hashes(characters)
+    df = pd.DataFrame({str(c): {s: 0 for s in sequences} for c in characters})
 
-    # instantiate blank dataframe
-    df = pd.DataFrame({hash(c): {hash(s): 0 for s in sequences} for c in characters})
-
-    # populate that dataframe with character instances in each sequence
     for sequence in sequences:
         for character in characters:
             if any(name in sequence for name in character):
-                df[hash(character)][hash(sequence)] += 1
+                df[str(character)][sequence] += 1
     return df
 
 
@@ -234,15 +203,15 @@ def calculate_cooccurence(df):
     Parameters
     ----------
     df : pandas.DataFrame (required)
-        columns = hashes of character names
-        indexes = hashes of sequences
+        columns = character names
+        indexes = sequences
         values  = counts of instances of character name in sequence
 
     Returns
     -------
     cooccurence : pandas.DataFrame
-        columns = hashes of character names
-        indexes = hashes of character names
+        columns = character names
+        indexes = character names
         values  = counts of character name cooccurences in all sequences
     '''
     cooccurence = df.T.dot(df)
@@ -260,8 +229,8 @@ def get_interaction_df(cooccurence, characters, threshold=0):
     Parameters
     ----------
     cooccurence : pandas.DataFrame (required)
-        columns = hashes of character names
-        indexes = hashes of character names
+        columns = character names
+        indexes = character names
         values  = counts of character name cooccurences in all sequences
     strip_zeros : bool (optional)
         if True, get_interaction_df() will only return a list of the character
@@ -277,7 +246,7 @@ def get_interaction_df(cooccurence, characters, threshold=0):
     '''
     interaction_df = pd.DataFrame([[str(c1),
                                     str(c2),
-                                    cooccurence[hash(c1)][hash(c2)]]
+                                    cooccurence[str(c1)][str(c2)]]
                                    for c1 in characters
                                    for c2 in characters],
                                   columns=['source', 'target', 'value'])

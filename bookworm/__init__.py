@@ -11,7 +11,6 @@ __all__ = [
            'get_sentence_sequences',
            'get_word_sequences',
            'get_character_sequences',
-           'get_hashes',
            'find_connections',
            'calculate_cooccurence',
            'get_interaction_df',
