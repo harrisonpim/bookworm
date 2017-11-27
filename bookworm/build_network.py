@@ -1,6 +1,7 @@
 import csv
 import nltk
 import pandas as pd
+import numpy as np
 import spacy
 from nltk.tokenize import word_tokenize
 import string
@@ -244,16 +245,12 @@ def get_interaction_df(cooccurence, threshold=0):
         target = character two
         value = strength of interaction between character one and character two
     '''
-    characters = cooccurence.index.values
-    interaction_df = pd.DataFrame([[str(c1),
-                                    str(c2),
-                                    cooccurence[str(c1)][str(c2)]]
-                                   for c1 in characters
-                                   for c2 in characters],
-                                  columns=['source', 'target', 'value'])
+    rows, columns = np.where(np.triu(cooccurence.values, 1) > threshold)
 
-    interaction_df = interaction_df[interaction_df['value'] > threshold]
-    return interaction_df
+    return pd.DataFrame(np.column_stack([cooccurence.index[rows],
+                                         cooccurence.columns[columns],
+                                         cooccurence.values[rows, columns]]),
+                        columns=['source', 'target', 'value'])
 
 
 def bookworm(book_path, charaters_path=None, threshold=2):
