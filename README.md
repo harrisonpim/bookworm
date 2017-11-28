@@ -1,6 +1,13 @@
 # Bookworm :books:
 Most novels are, in some way, a description of a social network. Bookworm ingests novels, builds a solid version of their implicit character network and spits out a intuitively understandable and deeply analysable graph.
 
+
+### Navigation
+- [src](src) for the code itself.
+- Notebooks including example usage (with a load of interwoven description of how the thing actually works), in jupyter notebook form. [Start Here](01%20-%20Intro%20to%20Bookworm.ipynb)
+- [data](data) for a description of how to get hold of data so that you can run bookworm yourself.
+
+
 ### Usage
 #### Command Line Usage
 The `bookworm('path/to/book.txt')` function wraps the following steps into one simple command, allowing the entire analysis process to be run easily from the command line
@@ -10,6 +17,7 @@ python run_bookworm.py --path 'path/to/book.txt'
 - Add `--d3` to format the output for interpretation by the d3.js force directed graph
 - Add `--threshold n` where n is an integer to specify the minimum character interaction strength to be included in the output (default 2)
 - Add `--output_file 'path/to/file'` to specify where the .json or .csv should be left
+
 
 #### Detailed API Usage
 Start by loading in a book
@@ -42,7 +50,6 @@ nx.from_pandas_dataframe(interaction_df,
 ```
 From there, all sorts of interesting analysis can be done. See the project's [associated jupyter notebooks](01%20-%20Intro%20to%20Bookworm.ipynb) and the [networkx documentation](https://networkx.github.io/documentation/stable/index.html) for more details.
 
-### Navigation
-- [src](src) for the code itself.
-- Notebooks for example usage (with a load of interwoven description of how the thing actually works), in jupyter notebook form. [Start Here](01%20-%20Intro%20to%20Bookworm.ipynb)
-- [data](data) for the example explicit character lists that I've used to test the project. Novel texts are variously available online - [Project Gutenberg](https://www.gutenberg.org/browse/scores/top#books-last30) is a great source of clean data, downloadable in .txt form, while [The British Library](https://data.bl.uk/digbks/) hosts huge amounts of (admittedly poor) OCR in XML form.
+### Slides
+I presented a bunch of this stuff at
+- :statue_of_liberty: [PyData NYC 17](data/other-files/Bookworm,%20PyData%20NYC%2017.pdf)
