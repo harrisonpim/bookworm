@@ -187,10 +187,19 @@ def find_connections(sequences, characters):
         indexes = sequences
         values  = counts of instances of character name in sequence
     '''
-    return pd.DataFrame({str(character):
-                         {sequence: sum([sequence.count(name) for name in character])
-                          for sequence in sequences} for character in characters})
-
+    if any(len(names) > 1 for names in characters):
+        df = pd.DataFrame({str(character):
+                           {sequence: sum([sequence.count(name) for name in character])
+                            for sequence in sequences}
+                           for character in characters})
+    else:
+        characters = [c[0] for c in characters]
+        df = pd.DataFrame([[sequence.count(character)
+                            for character in characters]
+                           for sequence in sequences],
+                          index=sequences,
+                          columns=characters)
+    return df
 
 def calculate_cooccurence(df):
     '''
