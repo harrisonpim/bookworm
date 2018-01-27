@@ -3,7 +3,7 @@ Most novels are, in some way, a description of a social network. Bookworm ingest
 
 
 ### Navigation
-- [src](src) for the code itself.
+- [bookworm](bookworm) for the code itself.
 - Notebooks including example usage (with a load of interwoven description of how the thing actually works), in jupyter notebook form. [Start Here](01%20-%20Intro%20to%20Bookworm.ipynb)
 - [data](data) for a description of how to get hold of data so that you can run bookworm yourself.
 
@@ -31,12 +31,11 @@ sequences = get_word_sequences(book, n=50)
 sequences = get_character_sequences(book, n=200)
 ```
 Manually input a list of character names or automatically extract a list of 'plausible' character names by respectively using
- using
 ```python
 characters = load_characters('path/to/character_list.csv')
 characters = extract_character_names(book)
 ```
-Find instances of each character in each sequence with `find_connections()`, enumerate out their cooccurences with `calculate_cooccurence()`, and transform that into a more easily interpretable format using `get_interaction_df()`
+Find instances of each character in each sequence with `find_connections()`, enumerate their cooccurences with `calculate_cooccurence()`, and transform that into a more easily interpretable format using `get_interaction_df()`
 ```python
 df = find_connections(sequences, characters)
 cooccurence = calculate_cooccurence(df)
