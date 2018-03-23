@@ -52,3 +52,4 @@ From there, all sorts of interesting analysis can be done. See the project's [as
 ### Slides
 I presented a bunch of this stuff at
 - :statue_of_liberty: [PyData NYC 17](data/other-files/Bookworm,%20PyData%20NYC%2017.pdf)
+- :beers: [Databeers London](data/other-files/Bookworm,%20Databeers%20London%202018.pdf)
