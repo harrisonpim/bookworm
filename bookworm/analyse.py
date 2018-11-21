@@ -2,9 +2,10 @@ import networkx as nx
 import pandas as pd
 import numpy as np
 import networkx as nx
-from nltk.tokenize import word_tokenize
-from .build_network import *
-
+from nltk.tokenize import word_tokenize, sent_tokenize
+from build_network import bookworm
+import load_book
+import netlsd
 
 def character_density(book_path):
     '''
@@ -20,9 +21,9 @@ def character_density(book_path):
     density : float
         number of characters in book / number of words in book
     '''
-    book = load_book(book_path)
+    book = load_book.from_path(book_path)
     book_length = len(word_tokenize(book))
-    book_graph = nx.from_pandas_dataframe(bookworm(book_path),
+    book_graph = nx.from_pandas_edgelist(bookworm(book_path),
                                           source='source',
                                           target='target')
     n_characters = len(book_graph.nodes())
@@ -50,7 +51,7 @@ def split_book(book, n_sections=10, cumulative=True):
         the given book split into the specified number of even (or, if
         cumulative is set to True, uneven) sections
     '''
-    book_sequences = get_sentence_sequences(book)
+    book_sequences = sent_tokenize(book)
     split_book = np.array_split(np.array(book_sequences), n_sections)
 
     if cumulative is True:
@@ -84,7 +85,7 @@ def chronological_network(book_path, n_sections=10, cumulative=True):
         values = nx.Graph describing the character graph in the specified book
                  section
     '''
-    book = load_book(book_path)
+    book = load_book.from_path(book_path)
     sections = split_book(book, n_sections, cumulative)
     graph_dict = {}
 
@@ -143,17 +144,12 @@ def graph_similarity(graph_1, graph_2):
     Returns
     -------
     similarity : float
-        the similarity score of the two graphs where a value closer to 0 is
+        the similarity score of the two graphs - a value closer to 0 is
         indicative of a more similar pair of networks
     '''
-    laplacian_1 = nx.spectrum.laplacian_spectrum(graph_1)
-    laplacian_2 = nx.spectrum.laplacian_spectrum(graph_2)
-
-    k_1 = select_k(laplacian_1)
-    k_2 = select_k(laplacian_2)
-    k = min(k_1, k_2)
-
-    return sum((laplacian_1[:k] - laplacian_2[:k])**2)
+    descriptor_1 = netlsd.heat(graph_1)
+    descriptor_2 = netlsd.heat(graph_2)
+    return netlsd.compare(descriptor_1, descriptor_2)
 
 
 def comparison_df(graph_dict):
@@ -174,9 +170,7 @@ def comparison_df(graph_dict):
         indexes = book titles
         values  = measure of the character graph similarity of books
     '''
-    books = list(graph_dict.keys())
-    comparison = {book_1: {book_2: graph_similarity(graph_dict[book_1],
-                                                    graph_dict[book_2])
-                           for book_2 in books} for book_1 in books}
-
+    comparison = {title_1: {title_2: graph_similarity(graph_1, graph_2)
+                           for title_2, graph_2 in graph_dict.items()} 
+                  for title_1, graph_1 in graph_dict.items()}
     return pd.DataFrame(comparison)
